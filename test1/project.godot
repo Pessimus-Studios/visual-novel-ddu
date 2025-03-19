@@ -10,6 +10,17 @@ config_version=5
 
 [application]
 
-config/name="Visual novel DDU"
-config/features=PackedStringArray("4.3", "Forward Plus")
+config/name="test1"
+run/main_scene="res://scene1test.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1024
+window/size/viewport_height=768
+window/stretch/mode="viewport"
+
+[rendering]
+
+renderer/rendering_method="mobile"
