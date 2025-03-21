@@ -8,3 +8,9 @@
 offset_right = 40.0
 offset_bottom = 40.0
 texture = ExtResource("1_0iqsx")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 329.0
+offset_top = 217.0
+offset_right = 703.0
+offset_bottom = 539.0
