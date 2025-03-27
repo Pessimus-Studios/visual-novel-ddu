@@ -13,7 +13,7 @@ config_version=5
 config/name="test1"
 run/main_scene="res://scene1test.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://images/icon.svg"
 
 [display]
 
@@ -23,5 +23,4 @@ window/stretch/mode="viewport"
 
 [rendering]
 
-renderer/rendering_method="mobile"
 textures/vram_compression/import_etc2_astc=true
