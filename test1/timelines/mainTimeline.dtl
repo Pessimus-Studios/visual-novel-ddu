@@ -1,0 +1,6 @@
+video "res://assets/video/welcomeTraveler.ogv"
+[background arg="res://assets/backgrounds/testimage1.png" fade="0.0"]
+join mrC center
+mrC: oi
+audio "res://assets/sound effects/my-movie-6_0RlWMvM.mp3"
+mrC: neat

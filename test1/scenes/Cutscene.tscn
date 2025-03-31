@@ -1,0 +1,23 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmingca1dkvxl"]
+
+[ext_resource type="VideoStream" path="res://assets/video/welcomeTraveler.ogv" id="1_3pbb0"]
+[ext_resource type="Script" path="res://scripts/cutscene.gd" id="1_rdwll"]
+
+[node name="Cutscene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_rdwll")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = -44.0
+offset_top = -19.0
+offset_right = 1060.0
+offset_bottom = 776.0
+stream = ExtResource("1_3pbb0")
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
