@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://ckkevtvbhqqs7"]
+
+[ext_resource type="VideoStream" path="res://assets/video/2025-03-30-20-31-03.ogv" id="1_bvgps"]
+
+[node name="sponsor" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = -101.0
+offset_right = 1179.0
+offset_bottom = 771.0
+stream = ExtResource("1_bvgps")
+autoplay = true
