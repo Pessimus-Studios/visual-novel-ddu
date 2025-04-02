@@ -1,4 +1,30 @@
 [background arg="res://assets/backgrounds/background1.png" fade="0.0"]
-audio "res://assets/music/bgmusic1.mp3"
+An aching pain is present.
+It feels as if you only slept for a few minutes, yet you feel as if you are very, very far away.
+The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep.
+You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy.
+mrCwhat: "Hey, you there!"
+You see a man, off in the distance. He calls to you. A friendly voice, but you feel at unease. You still don't know where you are.
+You fell asleep on your desk, after a long day. Waking up in the middle of nowhere is bound to make anyone feel uneasy, no matter the circumstances.
+mrCwhat: "Hey! Can you even hear me?"
+He approaches, with an awkward running style. He runs as if he is covered in mud, and as if he is trying his best not to get it everywhere. Despite this, he is clean.
+He comes off as a bit... Of a weirdo.
+You start to take a few steps back.
+mrCwhat: "No, wait wait! I'll be right with you!"
+You stop, and wait. Even if he was a threat, he didn't seem like much of one.
 join mrC center
-mrC: Welcome to game
+mrC: "Phew..."
+mrC: "Greetings, traveller! I watched ya arrive! You had quite the fall!"
+mrC: "My name is Mr. C. But you can call me... Mr. C!"
+audio music "res://assets/music/bgmusic1.mp3"
+mrC: "I watched you fall from the sky. I thought... Some kinda bird, there! I looked closely and, it wan' no bird! It was a human!"
+mrC: "But seriously, how'd ya survive that? That must'a hurt!"
+mrC: "Ah, that's besides the point."
+mrC: "You may be wondering where you are. To be honest, I  wonder the same thing... I just call this place the Forest! You're quite a ways away from the Road, but no worries!"
+...Huh?
+mrC: "I can take you there. Come, please! I'll tell you all about it."
+...What is going on?
+While every fiber of your being is against it, a small part of you tries to convince yourself to follow this strange man. His purple cloak clings idly on him, so unmoving that it's enough for you to notice the lack of wind.
+You hesitate for a moment, of course. However, as you glance around, and back toward the endless stretch of trees behind you... You see that you do not have much of a choice. And endless sea of lines, the shadows casted by the slender trees.
+Mr. C watches you inquisitively as you hesitate. He has an unwavering grin. While his eagerness is intimidating, his actions are void of malice.
+You follow.

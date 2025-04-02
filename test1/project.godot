@@ -22,14 +22,15 @@ GameManager="*res://scripts/gameManager.gd"
 [dialogic]
 
 directories/dch_directory={
-"mrC": "res://assets/characters/mrC/images/mrC.dch"
+"mrC": "res://assets/characters/mrC/mrC.dch",
+"mrCwhat": "res://assets/characters/mrC/mrCwhat.dch"
 }
 directories/dtl_directory={
 "mainTimeline": "res://timelines/mainTimeline.dtl"
 }
 variables={}
-layout/style_list=[]
-layout/default_style=""
+layout/style_list=["res://assets/ui/uistyle.tres"]
+layout/default_style="res://assets/ui/uistyle.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
 text/letter_speed=0.01
