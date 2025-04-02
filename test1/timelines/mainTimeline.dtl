@@ -1,4 +1,4 @@
-[background arg="res://assets/backgrounds/testimage1.png" fade="0.0"]
-audio "res://assets/music/indigo-lo-fi-hip-hop_medium-2-320824.mp3"
+[background arg="res://assets/backgrounds/background1.png" fade="0.0"]
+audio "res://assets/music/bgmusic1.mp3"
 join mrC center
 mrC: Welcome to game
