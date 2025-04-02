@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw2nnpvcvw64q"]
+
+[ext_resource type="VideoStream" path="res://assets/video/openingcutscene.ogv" id="1_0hbm4"]
+[ext_resource type="Script" path="res://scripts/cut_scene_1.gd" id="1_ngwul"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_ngwul")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = -185.0
+offset_top = 1.0
+offset_right = 1182.0
+offset_bottom = 770.0
+stream = ExtResource("1_0hbm4")
+autoplay = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

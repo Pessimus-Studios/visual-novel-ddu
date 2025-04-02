@@ -1,0 +1,17 @@
+[gd_scene load_steps=5 format=3 uid="uid://pgn0opswiakr"]
+
+[ext_resource type="Script" path="res://scripts/gameManager.gd" id="1_gh6d0"]
+[ext_resource type="PackedScene" uid="uid://b72dwtkjc0voo" path="res://scenes/startGame.tscn" id="2_xyc7h"]
+[ext_resource type="PackedScene" uid="uid://bw2nnpvcvw64q" path="res://scenes/cutScene1.tscn" id="3_0ggpg"]
+[ext_resource type="PackedScene" uid="uid://bfs0wypyxbebb" path="res://scenes/manager.tscn" id="3_o1elg"]
+
+[node name="main" type="Node2D"]
+
+[node name="start" parent="." instance=ExtResource("2_xyc7h")]
+
+[node name="Control" parent="." instance=ExtResource("3_0ggpg")]
+offset_right = 1023.0
+offset_bottom = 771.0
+
+[node name="manager" parent="." instance=ExtResource("3_o1elg")]
+script = ExtResource("1_gh6d0")

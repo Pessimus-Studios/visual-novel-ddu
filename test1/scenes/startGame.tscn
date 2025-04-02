@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://b72dwtkjc0voo"]
+
+[ext_resource type="Texture2D" uid="uid://dc1upeb0e6xab" path="res://assets/backgrounds/background1.png" id="1_6epk4"]
+[ext_resource type="Script" path="res://scripts/startscreen.gd" id="1_8myn6"]
+
+[node name="startScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1020.0
+offset_bottom = 767.0
+script = ExtResource("1_8myn6")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 0
+offset_right = 1027.0
+offset_bottom = 770.0
+texture = ExtResource("1_6epk4")
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 337.0
+offset_top = 347.0
+offset_right = 712.0
+offset_bottom = 451.0
+text = "start game"
+
+[connection signal="button_down" from="Button" to="." method="_on_button_button_down"]
