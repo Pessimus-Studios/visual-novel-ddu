@@ -1,29 +1,18 @@
-[gd_scene load_steps=3 format=3 uid="uid://omuhin66rynt"]
+[gd_scene load_steps=4 format=3 uid="uid://odo401fg8dh5"]
 
-[ext_resource type="Script" path="res://scripts/Gamestart.gd" id="1_72nsl"]
-[ext_resource type="VideoStream" path="res://assets/video/openingcutscene.ogv" id="2_gu52m"]
+[ext_resource type="Script" path="res://scripts/gameManager.gd" id="1_da2ux"]
+[ext_resource type="PackedScene" uid="uid://c2xf4tkr7titk" path="res://scenes/startscreen.tscn" id="2_bhbbr"]
+[ext_resource type="PackedScene" uid="uid://b5b5iwwxk5jux" path="res://scenes/cut_scene_1.tscn" id="3_xfxu7"]
 
-[node name="Game" type="Control"]
+[node name="game" type="Control"]
 layout_mode = 3
 anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-script = ExtResource("1_72nsl")
+offset_left = 279.0
+offset_top = 310.0
+offset_right = 319.0
+offset_bottom = 350.0
+script = ExtResource("1_da2ux")
 
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = 492.0
-offset_top = 364.0
-offset_right = 492.0
-offset_bottom = 364.0
-grow_horizontal = 2
-grow_vertical = 2
-stream = ExtResource("2_gu52m")
-autoplay = true
+[node name="startscreen" parent="." instance=ExtResource("2_bhbbr")]
 
-[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
+[node name="cutScene1" parent="." instance=ExtResource("3_xfxu7")]

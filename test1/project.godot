@@ -11,12 +11,13 @@ config_version=5
 [application]
 
 config/name="test1"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/game.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 
 [autoload]
 
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GameManager="*res://scripts/gameManager.gd"
 
 [dialogic]
 
@@ -69,6 +70,10 @@ audio/channel_defaults={
 window/size/viewport_width=1024
 window/size/viewport_height=768
 window/stretch/mode="viewport"
+
+[editor]
+
+version_control/autoload_on_startup=true
 
 [editor_plugins]
 
