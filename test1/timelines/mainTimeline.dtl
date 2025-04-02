@@ -1,6 +1,4 @@
-video "res://assets/video/welcomeTraveler.ogv"
 [background arg="res://assets/backgrounds/testimage1.png" fade="0.0"]
+audio "res://assets/music/indigo-lo-fi-hip-hop_medium-2-320824.mp3"
 join mrC center
-mrC: oi
-audio "res://assets/sound effects/my-movie-6_0RlWMvM.mp3"
-mrC: neat
+mrC: Welcome to game

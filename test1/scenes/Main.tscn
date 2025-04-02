@@ -1,6 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://bsp8yl8b4rd4v"]
+[gd_scene load_steps=4 format=3 uid="uid://bsp8yl8b4rd4v"]
 
-[ext_resource type="Script" path="res://scripts/gamestart.gd" id="1_tmp32"]
+[ext_resource type="Script" path="res://scenes/main.gd" id="1_8oc3c"]
+[ext_resource type="PackedScene" uid="uid://bj2qcgm4upbf7" path="res://scenes/srart.tscn" id="1_vbbhj"]
+[ext_resource type="PackedScene" uid="uid://omuhin66rynt" path="res://scenes/game.tscn" id="2_wk63u"]
 
 [node name="Main" type="Node2D"]
-script = ExtResource("1_tmp32")
+script = ExtResource("1_8oc3c")
+
+[node name="Srart" parent="." instance=ExtResource("1_vbbhj")]
+
+[node name="Game" parent="." instance=ExtResource("2_wk63u")]
+visible = true
