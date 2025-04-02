@@ -28,7 +28,9 @@ directories/dch_directory={
 directories/dtl_directory={
 "mainTimeline": "res://timelines/mainTimeline.dtl"
 }
-variables={}
+variables={
+"gameStage": "start"
+}
 layout/style_list=["res://assets/ui/uistyle.tres"]
 layout/default_style="res://assets/ui/uistyle.tres"
 glossary/default_case_sensitive=true
