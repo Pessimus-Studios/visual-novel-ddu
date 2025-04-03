@@ -28,4 +28,4 @@ While every fiber of your being is against it, a small part of you tries to conv
 You hesitate for a moment, of course. However, as you glance around, and back toward the endless stretch of trees behind you... You see that you do not have much of a choice. And endless sea of lines, the shadows casted by the slender trees.
 Mr. C watches you inquisitively as you hesitate. He has an unwavering grin. While his eagerness is intimidating, his actions are void of malice.
 You follow.
-do GameManager.change_game_stage("beginning")
+do GameManager.change_game_stage("cutScene1")
