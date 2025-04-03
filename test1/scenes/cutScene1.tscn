@@ -18,5 +18,6 @@ offset_right = 1182.0
 offset_bottom = 770.0
 stream = ExtResource("1_0hbm4")
 autoplay = true
+expand = true
 
 [connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]
