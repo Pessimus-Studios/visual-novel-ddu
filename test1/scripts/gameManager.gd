@@ -6,17 +6,20 @@ func _ready() -> void:
 	handle_scene_change()
 	pass
 
-func change_game_stage(new_stage: String) -> void: # ngl idk what this does - L
+# Function that changes the gameStage to the string it recieves and updates the game stage
+# Call the function by: GameManager.change_game_stage("")
+func change_game_stage(new_stage: String) -> void:
 	gameStage = new_stage
 	handle_scene_change()
 
-func handle_scene_change() -> void: # Changes scenes, kinda works like a switch statement
+func handle_scene_change() -> void: 
+	# Switch statement for changing game stage
 	match GameManager.gameStage:
-		"start": # This is the starting phase.
+		"start": 	# This is the starting phase.
 			get_tree().change_scene_to_file("res://scenes/startGame.tscn")
 		"cutScene1": # Naming convention is a little shoddy rn - L
 			get_tree().change_scene_to_file("res://scenes/cutScene1.tscn")
-		"beginning": # "beginning" means the start of the gmae
+		"beginning": # "beginning" means the start of the game
 			Dialogic.start("res://timelines/mainTimeline.dtl")
 
 	

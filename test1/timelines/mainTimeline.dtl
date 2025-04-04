@@ -29,3 +29,4 @@ You hesitate for a moment, of course. However, as you glance around, and back to
 Mr. C watches you inquisitively as you hesitate. He has an unwavering grin. While his eagerness is intimidating, his actions are void of malice.
 You follow.
 do GameManager.change_game_stage("cutScene1")
+[end_timeline]
