@@ -15,7 +15,7 @@
 "display_name": "simon",
 "mirror": false,
 "nicknames": [""],
-"offset": Vector2(0, 100),
+"offset": Vector2(0, 400),
 "portraits": {
 "anim/frame1": {
 "export_overrides": {
@@ -45,5 +45,5 @@
 "scene": ""
 }
 },
-"scale": 1.0
+"scale": 0.8
 }

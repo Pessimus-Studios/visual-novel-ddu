@@ -2,11 +2,12 @@ extends Node
 # Changed from Control to Node for a singleton
 var gameStage: String = "start"
 
+
 func _ready() -> void:
 	handle_scene_change()
 	pass
 
-# Function that changes the gameStage to the string it recieves and updates the game stage
+# Function that changes the gameStage to the string it recieves and updates the game stage.
 # Call the function by: GameManager.change_game_stage("")
 func change_game_stage(new_stage: String) -> void:
 	gameStage = new_stage
