@@ -1,0 +1,13 @@
+[background arg="res://assets/backgrounds/background1.png" fade="0.0"]
+Hello, this is some test code. Lorem ipsum dolor unga bunga. I like words. Words are made of sounds, are we made of waves...? 
+Ffff... ... ... L. I can't believe this.
+join mrC center
+mrC: Fuck bitches get money, amirite? HAHA! (dies)
+label sex (egg)
+- no i disagree
+	mrC: I don't like you then
+	mrC: You are bad
+	mrC: Are you sure?
+	jump testline/sex
+- yes absolutely my g
+	mrC: good shit

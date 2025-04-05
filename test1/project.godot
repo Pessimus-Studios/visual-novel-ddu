@@ -27,7 +27,8 @@ directories/dch_directory={
 "simon": "res://assets/characters/testcharacter/simon.dch"
 }
 directories/dtl_directory={
-"mainTimeline": "res://timelines/mainTimeline.dtl"
+"mainTimeline": "res://timelines/mainTimeline.dtl",
+"testline": "res://timelines/testline.dtl"
 }
 variables={
 "gameStage": "start"
@@ -54,7 +55,7 @@ choices/delay=0.2
 choices/reveal_delay=0
 choices/reveal_by_input=false
 text/autopauses={
-"...": 0.4
+"?!,.": 0.2
 }
 audio/channel_defaults={
 "": {
