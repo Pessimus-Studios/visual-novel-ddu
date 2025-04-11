@@ -28,7 +28,8 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "mainTimeline": "res://timelines/mainTimeline.dtl",
-"testline": "res://timelines/testline.dtl"
+"testline": "res://timelines/testline.dtl",
+"theRoad": "res://timelines/theRoad.dtl"
 }
 variables={
 "gameStage": "start"

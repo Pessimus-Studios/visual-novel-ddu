@@ -1,11 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://b72dwtkjc0voo"]
+[gd_scene load_steps=5 format=3 uid="uid://b72dwtkjc0voo"]
 
 [ext_resource type="Script" path="res://scripts/startscreen.gd" id="1_8myn6"]
-[ext_resource type="Texture2D" uid="uid://o4njj8ltamrt" path="res://assets/ui/graphics/New Project(1).png" id="3_u23jt"]
+[ext_resource type="Texture2D" uid="uid://vorr8r0ojxdf" path="res://addons/dialogic/Modules/Choice/blackoverlay.png" id="2_k0w0f"]
+[ext_resource type="Texture2D" uid="uid://ctx6rtyeudrjd" path="res://assets/ui/graphics/fillertitle.png" id="3_u5w7w"]
 [ext_resource type="VideoStream" path="res://assets/video/istockphoto-1254425102-640_adpp_is.ogv" id="4_3hlrg"]
-[ext_resource type="Texture2D" uid="uid://cqb7nj7ac6gm" path="res://assets/characters/testcharacter/images/Photo 07-03-2024, 13.36.45 (1).png" id="4_sl1sv"]
-[ext_resource type="Texture2D" uid="uid://dulqeh7ydj08y" path="res://assets/characters/mrC/images/test2.png" id="5_qv38o"]
-[ext_resource type="Texture2D" uid="uid://dggyf0e7cur67" path="res://assets/characters/mainCharacter/images/MCspritetest.png" id="6_1ry4a"]
 
 [node name="startScreen" type="Control"]
 layout_mode = 3
@@ -15,6 +13,7 @@ offset_bottom = 767.0
 script = ExtResource("1_8myn6")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
 offset_right = 1024.0
 offset_bottom = 770.0
 color = Color(0.587439, 0.544193, 0.768986, 1)
@@ -28,6 +27,12 @@ autoplay = true
 expand = true
 loop = true
 
+[node name="TextureRect" type="TextureRect" parent="ColorRect"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("2_k0w0f")
+
 [node name="ColorRect" type="ColorRect" parent="ColorRect"]
 layout_mode = 0
 offset_right = 256.0
@@ -35,6 +40,7 @@ offset_bottom = 770.0
 color = Color(0, 0, 0, 1)
 
 [node name="Start" type="Button" parent="ColorRect/ColorRect"]
+layout_mode = 0
 offset_left = 24.0
 offset_top = 320.0
 offset_right = 233.0
@@ -51,6 +57,7 @@ text = "Settings
 "
 
 [node name="Quit" type="Button" parent="ColorRect/ColorRect"]
+layout_mode = 0
 offset_left = 24.0
 offset_top = 450.0
 offset_right = 233.0
@@ -69,32 +76,17 @@ text = "PESSIMUS STUDIO
 [node name="TextureRect2" type="TextureRect" parent="ColorRect"]
 layout_mode = 0
 offset_left = 285.0
-offset_top = 49.0
+offset_top = 299.5
 offset_right = 995.0
-offset_bottom = 218.0
-texture = ExtResource("3_u23jt")
+offset_bottom = 468.5
+texture = ExtResource("3_u5w7w")
 expand_mode = 1
 
-[node name="Photo07-03-2024,13_36_45(1)" type="Sprite2D" parent="."]
-position = Vector2(816, 672)
-scale = Vector2(0.25, 0.25)
-texture = ExtResource("4_sl1sv")
-
-[node name="Test2" type="Sprite2D" parent="."]
-position = Vector2(448, 536)
-scale = Vector2(0.58, 0.58)
-texture = ExtResource("5_qv38o")
-
-[node name="MCspritetest" type="Sprite2D" parent="."]
-position = Vector2(632, 536)
-scale = Vector2(0.523333, 0.523333)
-texture = ExtResource("6_1ry4a")
-
-[connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_start_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_3_button_down"]
-[connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_settings_button_down"]
-[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_button_down"]
-[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_quit_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_button_down"]

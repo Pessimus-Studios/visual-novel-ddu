@@ -22,5 +22,7 @@ func handle_scene_change() -> void:
 			get_tree().change_scene_to_file("res://scenes/cutScene1.tscn")
 		"beginning": # "beginning" means the start of the game
 			Dialogic.start("res://timelines/mainTimeline.dtl")
-
-	
+		"cutScene2TheRoad": # "beginning" means the start of the game
+			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
+		"theRoad": # "beginning" means the start of the game
+			Dialogic.start("res://timelines/theRoad.dtl")

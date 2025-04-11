@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b8qxgic3hsoc6"
+path="res://.godot/imported/stocktextbleep.ogg-f5709a755a561e13a9b23b7da36a4e82.oggvorbisstr"
+
+[deps]
+
+source_file="res://assets/sound effects/stocktextbleep/stocktextbleep.ogg"
+dest_files=["res://.godot/imported/stocktextbleep.ogg-f5709a755a561e13a9b23b7da36a4e82.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
