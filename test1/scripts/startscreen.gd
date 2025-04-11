@@ -1,6 +1,15 @@
 extends Control
 # Code for main menu.
-func _on_button_button_down() -> void: # Button that cues cutscene.
+
+
+# Script for the start button on the startscreen.
+func _on_start_button_down() -> void:
 	GameManager.change_game_stage("cutScene1") 
-	pass
 	
+# Script for the setting button on the startscreen.
+func _on_settings_button_down() -> void:
+	pass 
+
+# Script for the quit button on the startscreen.
+func _on_quit_button_down() -> void:
+	get_tree().quit()
