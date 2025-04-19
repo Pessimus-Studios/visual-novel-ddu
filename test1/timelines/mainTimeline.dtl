@@ -89,7 +89,7 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
-- Cold
+- Joke
 	leave simon [animation="Instant In" length="0.0"]
 	update mrC left [move_time="0.5"]
 	You say that, he must call his home "The House".

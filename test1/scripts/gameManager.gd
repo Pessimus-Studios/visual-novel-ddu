@@ -12,7 +12,7 @@ func _ready() -> void:
 func change_game_stage(new_stage: String) -> void:
 	gameStage = new_stage
 	handle_scene_change()
-
+ 
 func handle_scene_change() -> void: 
 	# Switch statement for changing game stage
 	match GameManager.gameStage:
