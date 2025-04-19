@@ -20,40 +20,38 @@ script = ExtResource("1_kurgw")
 
 [node name="DialogicNode_ChoiceButton1" type="Button" parent="."]
 layout_mode = 2
-offset_left = 4.0
-offset_top = 591.0
-offset_right = 434.0
-offset_bottom = 671.0
+offset_top = 578.0
+offset_right = 410.0
+offset_bottom = 674.0
 text = "Some text"
 script = ExtResource("1_w632k")
 
 [node name="DialogicNode_ChoiceButton2" type="Button" parent="."]
-custom_minimum_size = Vector2(430, 80)
+custom_minimum_size = Vector2(410, 80)
 layout_mode = 2
-offset_left = 591.0
-offset_top = 591.0
-offset_right = 1021.0
-offset_bottom = 671.0
+offset_left = 614.0
+offset_top = 578.0
+offset_right = 1024.0
+offset_bottom = 674.0
 text = "Some text"
 script = ExtResource("1_w632k")
 
 [node name="DialogicNode_ChoiceButton3" type="Button" parent="."]
-custom_minimum_size = Vector2(430, 80)
+custom_minimum_size = Vector2(410, 80)
 layout_mode = 2
-offset_left = 3.0
-offset_top = 673.0
-offset_right = 433.0
-offset_bottom = 753.0
+offset_top = 674.0
+offset_right = 410.0
+offset_bottom = 770.0
 text = "Some text"
 script = ExtResource("1_w632k")
 
 [node name="DialogicNode_ChoiceButton4" type="Button" parent="."]
-custom_minimum_size = Vector2(430, 80)
+custom_minimum_size = Vector2(410, 96)
 layout_mode = 2
-offset_left = 592.0
-offset_top = 675.0
-offset_right = 1022.0
-offset_bottom = 755.0
+offset_left = 614.0
+offset_top = 674.0
+offset_right = 1024.0
+offset_bottom = 770.0
 text = "Some text"
 script = ExtResource("1_w632k")
 
