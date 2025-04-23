@@ -38,11 +38,13 @@ overrides = {}
 script = ExtResource("2_rrxum")
 scene = ExtResource("6_v4rk3")
 overrides = {
+"bold_font": "\"res://Fonts/JetBrainsMono-Regular.ttf\"",
 "box_margin_bottom": "0.0",
 "box_size": "Vector2(1024, 192)",
 "name_label_box_offset": "Vector2(20, -20)",
 "name_label_custom_font_size": "30.0",
 "name_label_use_global_font_size": "false",
+"normal_font": "\"res://Fonts/JetBrainsMono-Medium.ttf\"",
 "text_size": "24.0",
 "text_use_global_size": "false",
 "typing_sounds_every_nths_character": "3.0",

@@ -34,7 +34,7 @@ directories/dtl_directory={
 variables={
 "gameStage": "start"
 }
-layout/style_list=["res://assets/ui/uistyle.tres"]
+layout/style_list=["res://assets/ui/uistyle.tres", "res://assets/characters/mrC/style_mrC.tres"]
 layout/default_style="res://assets/ui/uistyle.tres"
 glossary/default_case_sensitive=true
 extensions_folder="res://addons/dialogic_additions"
