@@ -88,5 +88,5 @@ expand_mode = 1
 [connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_settings_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_quit_button_down"]
-[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_2_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Quit" to="." method="_on_button_2_button_down"]
