@@ -13,8 +13,8 @@
 "pitch_base": 1.0,
 "pitch_variance": 0.0,
 "skip_characters": 2.0,
-"sound_path": "res://assets/characters/mrC/sound/mrc.wav",
-"volume_base": -15.0,
+"sound_path": "res://assets/characters/mrC/sound/untitled.wav",
+"volume_base": -13.0,
 "volume_variance": 0.0
 }
 },

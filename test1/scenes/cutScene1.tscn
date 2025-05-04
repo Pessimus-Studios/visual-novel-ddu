@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bw2nnpvcvw64q"]
 
 [ext_resource type="Script" path="res://scripts/cut_scene_1.gd" id="1_ngwul"]
-[ext_resource type="VideoStream" path="res://assets/video/betaopeningcutscene.ogv" id="2_m78vw"]
+[ext_resource type="VideoStream" path="res://assets/video/beta2op.ogv" id="2_ps5ns"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -12,11 +12,10 @@ script = ExtResource("1_ngwul")
 
 [node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
 layout_mode = 0
-offset_left = -185.0
-offset_top = 1.0
-offset_right = 1182.0
-offset_bottom = 770.0
-stream = ExtResource("2_m78vw")
+offset_left = -170.0
+offset_right = 1197.0
+offset_bottom = 769.0
+stream = ExtResource("2_ps5ns")
 autoplay = true
 expand = true
 
