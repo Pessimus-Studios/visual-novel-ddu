@@ -2,6 +2,7 @@ extends Node
 # Changed from Control to Node for a singleton
 var gameStage: String = "start"
 var saveSlot: int = 0
+var currentMood: int = 10
 
 func _ready() -> void:
 	handle_scene_change()
@@ -15,6 +16,9 @@ func change_game_stage(new_stage: String) -> void:
 
 func game_save_slot(newSave: int) -> void:
 	saveSlot = newSave
+	
+func choice_mood(choiceMood: int) -> void:
+	currentMood += choiceMood
  
 func handle_scene_change() -> void: 
 	# Switch statement for changing game stage

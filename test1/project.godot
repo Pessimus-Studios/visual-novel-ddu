@@ -16,8 +16,8 @@ config/features=PackedStringArray("4.3", "Mobile")
 
 [autoload]
 
-Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 GameManager="*res://scripts/gameManager.gd"
+Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 
 [dialogic]
 
