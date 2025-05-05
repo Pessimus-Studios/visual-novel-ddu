@@ -24,11 +24,10 @@ GameManager="*res://scripts/gameManager.gd"
 directories/dch_directory={
 "mrC": "res://assets/characters/mrC/mrC.dch",
 "mrCwhat": "res://assets/characters/mrC/mrCwhat.dch",
-"overlay": "res://overlay.dch",
 "simon": "res://assets/characters/testcharacter/simon.dch"
 }
 directories/dtl_directory={
-"mainTimeline": "res://timelines/beginning.dtl",
+"beginning": "res://timelines/beginning.dtl",
 "testline": "res://timelines/testline.dtl",
 "theRoad": "res://timelines/theRoad.dtl",
 "timelines/1timeline": "res://timelines/1timeline.dtl"
