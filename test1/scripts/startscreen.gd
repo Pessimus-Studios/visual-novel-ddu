@@ -4,7 +4,7 @@ extends Control
 
 # Script for the start button on the startscreen.
 func _on_start_button_down() -> void:
-	GameManager.change_game_stage("cutScene1") 
+	GameManager.change_game_stage("intro_cutScene") 
 	
 # Script for the setting button on the startscreen.
 func _on_settings_button_down() -> void:

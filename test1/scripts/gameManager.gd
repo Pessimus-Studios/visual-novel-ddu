@@ -18,11 +18,21 @@ func handle_scene_change() -> void:
 	match GameManager.gameStage:
 		"start": 	# This is the starting phase.
 			get_tree().change_scene_to_file("res://scenes/startGame.tscn")
-		"cutScene1": # Naming convention is a little shoddy rn - L
+			
+		"intro_cutScene": # Naming convention is a little shoddy rn - L
 			get_tree().change_scene_to_file("res://scenes/cutScene1.tscn")
-		"beginning": # "beginning" means the start of the game
+			
+		"beginning1_scene": # "beginning" means the start of the game
 			Dialogic.start("res://timelines/mainTimeline.dtl")
-		"cutScene2TheRoad": # "beginning" means the start of the game
+		
+		"beginning2_scene": # "beginning" means the start of the game
+			Dialogic.start("res://timelines/mainTimeline.dtl")
+			
+		"beginning3_scene": # "beginning" means the start of the game
+			Dialogic.start("res://timelines/mainTimeline.dtl")
+			
+		"theRoad_cutScene":
 			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
-		"theRoad": # "beginning" means the start of the game
+			
+		"theRoad1_scene":
 			Dialogic.start("res://timelines/theRoad.dtl")
