@@ -3,6 +3,7 @@ An aching pain is present.
 A pain soars throughout your whole body. It feels as if you were only asleep for a few minutes, but a part of your subconscious tells you that you are very, very far away.
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep. This wasn't your room.
 [background arg="res://assets/backgrounds/background3.jpg" fade="0.8"]
+audio forestnoise "res://assets/music/thusfile.wav"
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy. Uncomfortable. Nervous.
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
 Every time you look around, it's as if the forest is constantly changing and shifting.
@@ -20,7 +21,7 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 	leave simon [animation="Instant Out" length="0.0"]
 	He continues to stumble as he walks. It looks like he has been running for a long time.
 	As he approaches, it's clear that he's injured his knee at some point while making his way over to you, given the slight limp.
-	...He seems a bit scatterbrained. But, friendly. You entertain him and wait, by standing still. 
+	...He seems a bit scatterbrained. But, friendly. You entertain him and wait, by standing still.
 	It was almost comical.
 - Flee
 	leave simon [animation="Instant Out" length="0.0"]
@@ -31,9 +32,9 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 - Attack
 	leave simon [animation="Instant Out" length="0.0"]
 	You put your arms up in anticipation. Something about this guy seemed dodgy. You get into your stance, getting ready for whatever he would do.
-	He slows down for a moment and raises his arms. 
+	He slows down for a moment and raises his arms.
 	Wait, wait...!
-	...Something about him makes him very unthreatening. 
+	...Something about him makes him very unthreatening.
 	Perhaps it was a better idea to hear him out first.
 	You slowly lower your arms, but you stay cautious of the man as he approaches.
 - Judge
