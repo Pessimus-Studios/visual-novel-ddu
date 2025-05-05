@@ -3,6 +3,7 @@ An aching pain is present.
 A pain soars throughout your whole body. It feels as if you were only asleep for a few minutes, but a part of your subconscious tells you that you are very, very far away.
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep. This wasn't your room.
 [background arg="res://assets/backgrounds/background3.jpg" fade="0.8"]
+audio forestnoise "res://assets/music/thusfile.wav"
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy. Uncomfortable. Nervous.
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
 Every time you look around, it's as if the forest is constantly changing and shifting.
