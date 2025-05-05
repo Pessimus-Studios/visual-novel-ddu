@@ -1,0 +1,71 @@
+join mrC center
+[background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]
+Following Mr. C would lead you towards a clearing. The sun was gentle. You could feel it on your skin, like a gentle hug. This wasn't so bad.
+And yet, you were still uneasy. Where exactly were you? Perhaps it was time to ask a question.
+mrC: I was just about to get to it! Ya see... I didn't want to scare you, but I'm not so sure either. However, I think you'll find me to be the best guide around, seein' as there isn't anyone else who knows the place as good as I do.
+mrC: The Forest is a place where people fall to every now and again. From all walks of life! Many'a people come and go... I've just been 'round here! I guide others to a treasure I cannot possess, you can say!
+Mr. C gently hums as he walks, between speaking.
+mrC: This place has been a home of mine for many many years! Eheheh... I've helped people like you my whole life! The Forest. The Road! I am the Gatekeeper. I am the guide! You are the cap-i-tan, I am the grease in the elbow, the caviar with the wine!
+A gentle chuckle escapes your lips as you think about the names. "The Forest", "The Road".
+mrC: What's so funny, eh?
+[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+join simon center
+- Honest
+	leave simon
+	You tell him that his naming convention is very rudimentary.
+	mrC: Daah, that's the whole point of it! You forget things, now and again... Being here for too long can even make you forget your name.
+	(Mr. C will remember that.)
+	mrC: The Forest! The Road! Or was it The Path...
+	Mr. C looks off to the side for a moment, and his pace slows down. It seems as if he is in deep thought.
+	This doesn't last longer than a few seconds. He springs back to life, and speeds up his walking.
+	mrC: We should get a move on! It's best not to stay here... The woods can easily take over one's mind!
+	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
+	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
+	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
+	After some walking, you see it in the distance. Artificial terrain.\
+	The Road.
+- Curious
+	leave simon
+	You remind him that you still have no idea where you are, and are a little confused with it all.
+	mrC: Ahh, come on... It's not a problem! I'll show ya. The Road is where everyone goes, no matter what!
+	(Mr. C will remember that.)
+	mrC: The Forest! The Road! Or was it The Path...
+	Mr. C looks off to the side for a moment, and his pace slows down. It seems as if he is in deep thought.
+	This doesn't last longer than a few seconds. He springs back to life, and speeds up his walking.
+	mrC: We should get a move on! It's best not to stay here... The woods can easily take over one's mind!
+	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
+	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
+	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
+	After some walking, you see it in the distance. Artificial terrain.\
+	The Road.
+- Brutal
+	leave simon
+	You say that his naming convention is a bit stupid.
+	He looks at you skeptically, and doesn't say much.
+	(Mr. C will remember that.)
+	mrC: What's the problem with that? It's simple! Nice and simple, eh?
+	Mr. C looks off to the side for a moment, and his pace slows down. It seems as if he is in deep thought.
+	This doesn't last longer than a few seconds. He springs back to life, and speeds up his walking.
+	mrC: We should get a move on! It's best not to stay here... The woods can easily take over one's mind!
+	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
+	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
+	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
+	After some walking, you see it in the distance. Artificial terrain.\
+	The Road.
+- Joke
+	leave simon
+	You say that, he must call his home "The House".
+	...
+	(Mr. C will remember that.)
+	He gives you an awkward chuckle, rubbing the back of his head.
+	...
+	mrC: ...Hah! I get it now!
+	His face lights up, after understanding the joke.
+	mrC: I think we'll get along just fine! Heheh!
+	mrC: Alright, alright! We should get a move on! It's best not to stay here... The woods can easily take over one's mind!
+	Perhaps it's best not to try being funny.*
+	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
+	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
+	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
+	After some walking, you see it in the distance. Artificial terrain.\
+	The Road.

@@ -1,0 +1,18 @@
+[background arg="res://assets/backgrounds/background3.jpg" fade="0.0"]
+join mrC center
+mrC: Phew...
+mrC: Greetings, traveller! I watched ya arrive! You had quite the fall!
+mrC: My name is Mr. C. But you can call me... Mr. C!
+audio music "res://assets/music/bgmusic1.mp3" [loop="true"]
+mrC: I watched you fall from the sky. I thought... Some kinda bird, there! I looked closely and, it wan' no bird! It was a human!
+mrC: But seriously, how'd ya survive that? That must'a hurt!
+mrC: Ah, that's besides the point.
+mrC: You may be wondering where you are. To be honest, I wonder the same thing... I just call this place the Forest! You're quite a ways away from the Road, but no worries!
+...Huh?
+mrC: I can take you there. Come, please! I'll tell you all about it.
+...What is going on?
+While every fiber of your being is against it, a small part of you tries to convince yourself to follow this strange man. His purple cloak clings idly on him, so unmoving that it's enough for you to notice the lack of wind.
+You hesitate for a moment, of course. However, as you glance around, and back toward the endless stretch of trees behind you... You see that you do not have much of a choice. An endless sea of lines, the shadows casted by the slender trees.
+Mr. C watches you inquisitively as you hesitate. He has an unwavering grin. While his eagerness is intimidating, his actions are void of malice.
+You follow.
+[background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]

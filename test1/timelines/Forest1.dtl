@@ -1,0 +1,38 @@
+[background arg="res://assets/backgrounds/background1.png" fade="0.0"]
+join simon center
+- Comfort
+	leave simon
+	mrC: It's safe to say that you are here for the same reason as everyone else. There are other people, just like you! Some fall a bit further up the Road, some fall a bit further down...
+	mrC: At least people don't land on the Road! Not that I think you even can...
+	mrC: There is a path. Above this. Perhaps you have come from there, and you've strayed too far off of yours. This, cap-i-tan, is my best guess.
+	mrC: But it seems that everyone who comes down here comes from their sleep! I have yet to meet anyone who says they fall wide awake. I- Eheheh... I'm not so sure, really...
+	He looks down, as if he is a little bit lost himself.
+	A wave of silence comes. Perhaps it was time to say something.
+	Having already walked for some time, you notice that you've been walking a little faster than him, and that he's started to lag behind.
+	You slow your pace down slightly to match his.
+	You reassure him that it's okay. It's okay not to know everything.
+	You and Mr. C. were in this together. You told him that you were happy with a guide in general.
+	A smile plasters his face.
+	mrC: Hey, hey! I'm the guide here, ya know! I'm the one to help. You just sit tight, cap-i-tan. Follow my lead. We will get there!
+	mrC: I've been the guide to this world for as long as I can remember!
+	mrC: I've helped many'a people come and go...
+	mrC: ...And i'll be the one to help you.
+	mrC: Don't worry about ol' me!
+	mrC: Let's get a move on!
+	mrC: I am Mr. C! I am the Guide! The Gatekeeper of The Road!
+	He starts to pick up the pace a little, raising his hand up and motioning for you to follow.
+	He starts to hum as he walks again, with a light swing in his step.
+	mrC: It gets quiet here... People don't come very often! Time doesn't move very fast here... Come to think of it, time only moves when people are around!
+	Mr. C. looks at you inquisitively as you walk with him.
+	He turns his body a little bit to you as you walk.
+	mrC: ...I see that look in yer eyes... Ask, ask!
+	mrC: I'm willing to answer! Nobody's wanted to ask me a question before!
+- Insist
+	leave simon
+	You double down, and continue to ask him about the Forest. Where exactly were you? You needed answers, and now.
+- Start singing
+	leave simon
+	Start singing
+- About yourself
+	leave simon
+	You start to talk about yourself.
