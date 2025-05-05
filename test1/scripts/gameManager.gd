@@ -21,11 +21,17 @@ func handle_scene_change() -> void:
 		"intro_cutScene": # Naming convention is a little shoddy rn - L
 			get_tree().change_scene_to_file("res://scenes/cutScene1.tscn")
 			
-		"beginning1_scene": # "beginning" means the start of the game
-			Dialogic.start("res://timelines/beginning.dtl")
+		"start_timeline": # "beginning" means the start of the game
+			Dialogic.start("res://timelines/start.dtl")
 			
-		"theRoad_cutScene":
+		"MrC1_timeline": #MrC1 in Twine
+			Dialogic.start("res://timelines/MrC1.dtl")
+			
+		"MrC2_timeline": #MrC2 in Twine
+			Dialogic.start("res://timelines/MrC2.dtl")
+			
+		"act1_cutScene": # Refer to cutScene2.tscn. Plays video, goes to theRoad1_timeline
 			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
-			
-		"theRoad1_scene":
-			Dialogic.start("res://timelines/theRoad.dtl")
+		
+		"theRoad1_timeline": #TheRoad1 in Twine
+			Dialogic.start("res://timelines/TheRoad1.dtl")

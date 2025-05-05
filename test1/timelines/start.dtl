@@ -26,7 +26,7 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 - Flee
 	leave simon [animation="Instant Out" length="0.0"]
 	You didn't trust him. Not at all. You stumbled back, but every step you took backwards made you feel nervous.
-	It was as if the Forest was reactiing negatively to your actions. You would feel a burning headache in your head, but as you turn to look at him...
+	It was as if the Forest was reacting negatively to your actions. You would feel a burning headache in your head, but as you turn to look at him...
 	He didn't seem like much of the attacking type. You keep your arms up in case he were to try something, but...
 	The purple cloak wasn't very menacing. He was also shorter than you.
 - Attack
@@ -42,7 +42,4 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 	You raise an eyebrow and cross your arms as you watch him approach.
 	[shake]What a weirdo...[/shake]
 	He stumbles his way towards you. Perhaps he has an injured knee. Or, perhaps he wasn't all there. He seemed friendly enough for you to wait.
-join mrC center
-[background arg="res://assets/backgrounds/black.jpg" fade="0.0" transition="Simple Fade"]
-audio music -
-do GameManager.change_game_stage("cutScene2TheRoad")
+do GameManager.change_game_stage("MrC1_timeline")

@@ -1,4 +1,3 @@
-[background arg="res://assets/backgrounds/background3.jpg" fade="0.0"]
 join mrC center
 mrC: Phew...
 mrC: Greetings, traveller! I watched ya arrive! You had quite the fall!
@@ -15,4 +14,7 @@ While every fiber of your being is against it, a small part of you tries to conv
 You hesitate for a moment, of course. However, as you glance around, and back toward the endless stretch of trees behind you... You see that you do not have much of a choice. An endless sea of lines, the shadows casted by the slender trees.
 Mr. C watches you inquisitively as you hesitate. He has an unwavering grin. While his eagerness is intimidating, his actions are void of malice.
 You follow.
-[background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]
+leave mrC
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[wait time="0.5"]
+do GameManager.change_game_stage("MrC2_timeline")

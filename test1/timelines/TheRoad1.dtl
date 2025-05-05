@@ -1,20 +1,22 @@
-[background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]
-join mrC center
+[background arg="res://assets/backgrounds/background1.png" fade="0.0"]
 Asphalt. No signs. Trees on either side. No kidding, it was in fact a road.
 The smell was the same. The smell of leaves. there was no wind either. Everything was calm, eerily quiet. The only sounds that kept you sane were the erratic footsteps and skips of Mr. C.
+join mrC left
 mrC: Welcome to The Road, friend!
-Friend?
-mrC: The Road... On the Road again...~ I can't waittt....~ To... Get on the Road again...~
+[shake]Friend?[/shake]
+mrC: [shake]The Road... On the Road again...~ I can't waittt....~ To... Get on the Road again...~[/shake]
 The man's footsteps sync with his singing, as he stumbles along the road. You follow alongside him and watch.
 His purple cloak, the medieval-styled clothing... Yet, you can see that he has a modern wrist watch. His glasses are modern too. He looked no older than you, if not a bit younger.
 Also... Mr. C? What did the "C" stand for?
-mrC: Yellow submarine, yellow submarine... In the town...! Where I was born...~
+mrC: [shake]Yellow submarine, yellow submarine... In the town...! Where I was born...~[/shake]
 He continued to hum and sing a few songs as you walked. He never finished them, and would stop in the middle of the song. He would then walk in silence for a moment, and then start another.
 Despite the medieval clothing style, he hums contemporary songs. He continues to do so.
-[clear time="1.0"]
-join simon center
+[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+join simon center [animation="Instant In" length="0.0"]
+update mrC center [move_time="0.5"]
 - Forest
 	leave simon
+	update mrC left [move_time="0.5"]
 	You catch him in one of his moments of silence, and ask about where exactly you were. It still didn't make a whole lot of sense to you. What was "The Road"? "The Forest"? What is going on?
 	Mr. C. stops his humming, and turns to look at you. He continues his walk, and stretches his arms up with a groan.
 	mrC: Ahh, well...
@@ -28,13 +30,16 @@ join simon center
 	A wave of silence comes. Perhaps it was time to say something.
 - Mr. C
 	leave simon
+	update mrC left [move_time="0.5"]
 	You ask about Mr. C.
 - Small Talk
 	leave simon
+	update mrC left [move_time="0.5"]
 	You bring up small talk.
 	You ask where he got the cloak from. He says that he doesn't know either, and that he's just had it for the longest time. He brings up an anecdote, about the kind of people he meets here.
 	mrC: I've met people from all walks of life! Some fall early on the Road, and some fall not so far from the end.
 	Here, you learn a bit about how
 - Join
 	leave simon
+	update mrC left [move_time="0.5"]
 	You join in on his singing.

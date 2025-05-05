@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://1l6ly01nx2j7"]
 
 [ext_resource type="Script" path="res://scripts/cut_scene_2.gd" id="1_pajf6"]
-[ext_resource type="VideoStream" path="res://assets/video/welcomeTraveler.ogv" id="2_gfklo"]
+[ext_resource type="VideoStream" path="res://assets/video/theroadcutscene.ogv" id="2_5dnj2"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -16,7 +16,8 @@ offset_left = -185.0
 offset_top = 1.0
 offset_right = 1182.0
 offset_bottom = 770.0
-stream = ExtResource("2_gfklo")
+stream = ExtResource("2_5dnj2")
+volume_db = 24.0
 autoplay = true
 expand = true
 

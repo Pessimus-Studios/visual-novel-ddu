@@ -1,5 +1,6 @@
-join mrC center
 [background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]
+[wait time="0.5"]
+join mrC center
 Following Mr. C would lead you towards a clearing. The sun was gentle. You could feel it on your skin, like a gentle hug. This wasn't so bad.
 And yet, you were still uneasy. Where exactly were you? Perhaps it was time to ask a question.
 mrC: I was just about to get to it! Ya see... I didn't want to scare you, but I'm not so sure either. However, I think you'll find me to be the best guide around, seein' as there isn't anyone else who knows the place as good as I do.
@@ -67,5 +68,9 @@ join simon center
 	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
-	After some walking, you see it in the distance. Artificial terrain.\
-	The Road.
+	After some walking, you see it in the distance. Artificial terrain.
+leave mrC
+[wait time="1.0"]
+audio forestnoise -
+audio music -
+do GameManager.change_game_stage("act1_cutScene")
