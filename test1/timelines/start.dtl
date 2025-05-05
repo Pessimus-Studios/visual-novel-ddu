@@ -15,7 +15,7 @@ If there were any obstacles, he would probably have fallen over by now.
 He comes off as a bit... Of a weirdo.
 You start to take a few steps back.
 "No, wait wait! I'll be right with you!"
-[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 - Wait
 	leave simon [animation="Instant Out" length="0.0"]
