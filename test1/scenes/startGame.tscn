@@ -82,8 +82,8 @@ offset_bottom = 509.0
 texture = ExtResource("4_05ktk")
 expand_mode = 1
 
-[connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Start" to="." method="_on_start_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="ColorRect/ColorRect/Settings" to="." method="_on_settings_button_down"]
