@@ -27,6 +27,7 @@ directories/dch_directory={
 "simon": "res://assets/characters/testcharacter/simon.dch"
 }
 directories/dtl_directory={
+"1timeline": "res://assets/backgrounds/1timeline.dtl",
 "mainTimeline": "res://timelines/mainTimeline.dtl",
 "testline": "res://timelines/testline.dtl",
 "theRoad": "res://timelines/theRoad.dtl"
