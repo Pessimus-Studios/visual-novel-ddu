@@ -2,7 +2,6 @@ extends Node
 # Changed from Control to Node for a singleton
 var gameStage: String = "start"
 
-
 func _ready() -> void:
 	handle_scene_change()
 	pass
@@ -24,12 +23,6 @@ func handle_scene_change() -> void:
 			
 		"beginning1_scene": # "beginning" means the start of the game
 			Dialogic.start("res://timelines/beginning.dtl")
-		
-		"beginning2_scene": # "beginning" means the start of the game
-			Dialogic.start("res://timelines/mainTimeline.dtl")
-			
-		"beginning3_scene": # "beginning" means the start of the game
-			Dialogic.start("res://timelines/mainTimeline.dtl")
 			
 		"theRoad_cutScene":
 			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
