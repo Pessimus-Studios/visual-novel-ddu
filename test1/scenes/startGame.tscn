@@ -1,8 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://b72dwtkjc0voo"]
+[gd_scene load_steps=4 format=3 uid="uid://b72dwtkjc0voo"]
 
 [ext_resource type="Script" path="res://scripts/startscreen.gd" id="1_8myn6"]
-[ext_resource type="Texture2D" uid="uid://vorr8r0ojxdf" path="res://addons/dialogic/Modules/Choice/blackoverlay.png" id="2_k0w0f"]
-[ext_resource type="VideoStream" path="res://assets/video/istockphoto-1254425102-640_adpp_is.ogv" id="4_3hlrg"]
+[ext_resource type="Texture2D" uid="uid://gf8md6o7o5xy" path="res://assets/backgrounds/DSC00675.png" id="2_074kv"]
 [ext_resource type="Texture2D" uid="uid://dct4fuc8gcchj" path="res://assets/ui/graphics/titlebeta.png" id="4_05ktk"]
 
 [node name="startScreen" type="Control"]
@@ -18,20 +17,13 @@ offset_right = 1024.0
 offset_bottom = 770.0
 color = Color(0.587439, 0.544193, 0.768986, 1)
 
-[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="ColorRect"]
-layout_mode = 0
-offset_right = 1365.0
-offset_bottom = 768.0
-stream = ExtResource("4_3hlrg")
-autoplay = true
-expand = true
-loop = true
-
 [node name="TextureRect" type="TextureRect" parent="ColorRect"]
 layout_mode = 0
-offset_right = 40.0
-offset_bottom = 40.0
-texture = ExtResource("2_k0w0f")
+offset_top = -112.0
+offset_right = 1237.0
+offset_bottom = 770.0
+texture = ExtResource("2_074kv")
+expand_mode = 2
 
 [node name="ColorRect" type="ColorRect" parent="ColorRect"]
 layout_mode = 0
