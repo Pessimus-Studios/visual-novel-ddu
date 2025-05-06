@@ -156,10 +156,11 @@ offset_left = 25.0
 offset_top = 45.0
 offset_right = 70.0
 offset_bottom = 90.0
+theme_override_fonts/font = ExtResource("3_q62yg")
 theme_override_font_sizes/font_size = 25
 theme_override_styles/hover = ExtResource("7_5it4m")
 theme_override_styles/normal = ExtResource("8_k1krm")
-text = "✖"
+text = "x"
 metadata/_edit_group_ = true
 
 [node name="deleteSlot2" type="Button" parent="."]
@@ -169,10 +170,11 @@ offset_left = 25.0
 offset_top = 280.0
 offset_right = 70.0
 offset_bottom = 325.0
+theme_override_fonts/font = ExtResource("3_q62yg")
 theme_override_font_sizes/font_size = 25
 theme_override_styles/hover = ExtResource("7_5it4m")
 theme_override_styles/normal = ExtResource("8_k1krm")
-text = "✖"
+text = "x"
 metadata/_edit_group_ = true
 
 [connection signal="button_down" from="back" to="." method="_on_back_button_down"]

@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/overlay.gd" id="1_wmwcp"]
 [ext_resource type="Shader" path="res://scripts/saturationZero.gdshader" id="2_erqkm"]
 [ext_resource type="Script" path="res://scripts/drain.gd" id="3_atfok"]
-[ext_resource type="PackedScene" uid="uid://bpuvupyhwkui4" path="res://scenes/pauseMenu.tscn" id="4_ehtt6"]
+[ext_resource type="PackedScene" uid="uid://bpuvupyhwkui4" path="res://scenes/pausedMenu.tscn" id="4_ehtt6"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7005f"]
 shader = ExtResource("2_erqkm")

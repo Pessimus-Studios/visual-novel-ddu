@@ -2,7 +2,7 @@
 An aching pain is present.
 It feels as if you only slept for a few minutes, yet you feel as if you are very, very far away...
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep.
-[background arg="res://assets/backgrounds/DSC00673-1.png" fade="0.5"]
+[background arg="res://assets/backgrounds/theForest.png" fade="0.5"]
 [save slot="1"]
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy.
 mrCwhat: Hey, you there!
@@ -47,7 +47,7 @@ A gentle chuckle escapes your lips as you think about the names. "The Forest", "
 mrC: What's so funny, eh?
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 update mrC center [move_time="0.5"]
-join simon (anim/frame1) center [animation="Instant In" length="0.0"]
+join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Confused
 	leave simon [animation="Instant In" length="0.0"]
 	update mrC left [move_time="0.5"]

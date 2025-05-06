@@ -6,26 +6,47 @@ var currentMood: int = 10
 var desaturationOverlay: CanvasLayer
 var overlayScene = preload("res://scenes/saturatrionDrain.tscn")
 var allowOverlay: bool
-
-@onready var pauseMenu = $PauseMenu
 var paused: bool = false
+var pauseMenu
+
 
 func _ready() -> void:
+	var pause_menu_scene = preload("res://scenes/pausedMenu.tscn")
+	pauseMenu = pause_menu_scene.instantiate()
+	pauseMenu.layer = 127
+	add_child(pauseMenu)
+	pauseMenu.hide()
 	handle_scene_change()
 
 func _process(delta):
 	if Input.is_action_just_pressed("pause"):
-		pause_menu()
+		if allowOverlay:
+			pause_menu()
+		else:
+			pass
 
 func pause_menu() -> void:
+	if pauseMenu == null:
+		push_error("PauseMenu is null! Cannot toggle pause menu.")
+		return
+	
 	if paused:
 		pauseMenu.hide()
 		Engine.time_scale = 1
+		restore_audio()
 	else:
 		pauseMenu.show()
+		mute_audio()
 		Engine.time_scale = 0
 	
 	paused = !paused
+
+func mute_audio() -> void:
+	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), -20.0)
+	 
+func restore_audio() -> void:
+	AudioServer.set_bus_volume_db(AudioServer.get_bus_index("Master"), 0.0)
+	
 
 func enable_desaturation(intensity: float = 1.0):
 	if not is_instance_valid(desaturationOverlay):
