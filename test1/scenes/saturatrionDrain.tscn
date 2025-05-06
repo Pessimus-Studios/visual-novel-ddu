@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1iuad0pfkoy4"]
+
+[ext_resource type="Script" path="res://scripts/overlay.gd" id="1_wmwcp"]
+[ext_resource type="Shader" path="res://scripts/saturationZero.gdshader" id="2_erqkm"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_7005f"]
+shader = ExtResource("2_erqkm")
+shader_parameter/intensity = 0.0
+
+[node name="SaturatrionDrain" type="CanvasLayer"]
+script = ExtResource("1_wmwcp")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+material = SubResource("ShaderMaterial_7005f")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0, 0, 0, 0)

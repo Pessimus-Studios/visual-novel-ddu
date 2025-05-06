@@ -16,13 +16,7 @@ offset_right = 1020.0
 offset_bottom = 767.0
 script = ExtResource("1_8myn6")
 
-[node name="ColorRect" type="ColorRect" parent="."]
-layout_mode = 0
-offset_right = 1024.0
-offset_bottom = 770.0
-color = Color(0.587439, 0.544193, 0.768986, 1)
-
-[node name="TextureRect" type="TextureRect" parent="ColorRect"]
+[node name="TextureRect" type="TextureRect" parent="."]
 layout_mode = 0
 offset_top = -112.0
 offset_right = 1237.0
@@ -30,44 +24,92 @@ offset_bottom = 770.0
 texture = ExtResource("2_074kv")
 expand_mode = 2
 
-[node name="ColorRect" type="ColorRect" parent="ColorRect"]
+[node name="Sidepanel" type="ColorRect" parent="."]
 layout_mode = 0
 offset_right = 256.0
 offset_bottom = 770.0
 color = Color(0, 0, 0, 0.486275)
 
-[node name="Label" type="Label" parent="ColorRect/ColorRect"]
+[node name="Copyright" type="Label" parent="."]
 layout_mode = 0
 offset_left = 58.0
 offset_top = 705.0
-offset_right = 198.0
-offset_bottom = 755.0
+offset_right = 208.0
+offset_bottom = 756.0
 theme_override_fonts/font = ExtResource("3_q62yg")
 theme_override_font_sizes/font_size = 23
 text = "PESSIMUS STUDIO
 2024 COPYRIGHT"
 
-[node name="TextureRect2" type="TextureRect" parent="ColorRect"]
-layout_mode = 0
-offset_left = 285.0
-offset_top = 259.0
-offset_right = 995.0
-offset_bottom = 509.0
-texture = ExtResource("4_05ktk")
-expand_mode = 1
-
-[node name="Quit" type="Button" parent="."]
+[node name="back" type="Button" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 24.0
-offset_top = 450.0
+offset_top = 605.0
 offset_right = 234.0
-offset_bottom = 500.0
+offset_bottom = 655.0
 theme_override_fonts/font = ExtResource("3_q62yg")
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = ExtResource("4_rvl5c")
 theme_override_styles/pressed = ExtResource("4_rvl5c")
 theme_override_styles/normal = ExtResource("5_nanfa")
-text = "Quit"
+text = "Back
+"
+metadata/_edit_group_ = true
+
+[node name="SaveSlot2" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 25.0
+offset_top = 280.0
+offset_right = 235.0
+offset_bottom = 490.0
+theme_override_styles/hover = ExtResource("4_rvl5c")
+theme_override_styles/normal = ExtResource("5_nanfa")
+text = "Save Slot 2
+"
+metadata/_edit_group_ = true
+
+[node name="SaveSlot1" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 25.0
+offset_top = 45.0
+offset_right = 235.0
+offset_bottom = 255.0
+theme_override_styles/hover = ExtResource("4_rvl5c")
+theme_override_styles/normal = ExtResource("5_nanfa")
+text = "Save Slot 1"
+metadata/_edit_group_ = true
+
+[node name="fullscreen" type="Button" parent="."]
+visible = false
+layout_mode = 0
+offset_left = 24.0
+offset_top = 320.0
+offset_right = 234.0
+offset_bottom = 370.0
+theme_override_fonts/font = ExtResource("3_q62yg")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = ExtResource("4_rvl5c")
+theme_override_styles/pressed = ExtResource("4_rvl5c")
+theme_override_styles/normal = ExtResource("5_nanfa")
+text = "Fullscreen"
+metadata/_edit_group_ = true
+
+[node name="Start" type="Button" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 320.0
+offset_right = 234.0
+offset_bottom = 370.0
+theme_override_fonts/font = ExtResource("3_q62yg")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = ExtResource("4_rvl5c")
+theme_override_styles/pressed = ExtResource("4_rvl5c")
+theme_override_styles/normal = ExtResource("5_nanfa")
+text = "Start"
+metadata/_edit_group_ = true
 
 [node name="Settings" type="Button" parent="."]
 layout_mode = 0
@@ -82,56 +124,33 @@ theme_override_styles/pressed = ExtResource("4_rvl5c")
 theme_override_styles/normal = ExtResource("5_nanfa")
 text = "Settings
 "
+metadata/_edit_group_ = true
 
-[node name="Start" type="Button" parent="."]
+[node name="Quit" type="Button" parent="."]
 layout_mode = 0
 offset_left = 24.0
-offset_top = 320.0
+offset_top = 450.0
 offset_right = 234.0
-offset_bottom = 370.0
+offset_bottom = 500.0
 theme_override_fonts/font = ExtResource("3_q62yg")
 theme_override_font_sizes/font_size = 20
 theme_override_styles/hover = ExtResource("4_rvl5c")
 theme_override_styles/pressed = ExtResource("4_rvl5c")
 theme_override_styles/normal = ExtResource("5_nanfa")
-text = "Start"
+text = "Quit"
+metadata/_edit_group_ = true
 
-[node name="SaveSlot1" type="Button" parent="."]
+[node name="TextureRect2" type="TextureRect" parent="."]
 layout_mode = 0
-offset_left = 25.0
-offset_top = 45.0
-offset_right = 235.0
-offset_bottom = 255.0
-theme_override_styles/hover = ExtResource("4_rvl5c")
-theme_override_styles/normal = ExtResource("5_nanfa")
-text = "Save Slot 1"
-
-[node name="SaveSlot2" type="Button" parent="."]
-layout_mode = 0
-offset_left = 25.0
-offset_top = 280.0
-offset_right = 235.0
-offset_bottom = 490.0
-theme_override_styles/hover = ExtResource("4_rvl5c")
-theme_override_styles/normal = ExtResource("5_nanfa")
-text = "Save Slot 2
-"
-
-[node name="back" type="Button" parent="."]
-layout_mode = 0
-offset_left = 24.0
-offset_top = 605.0
-offset_right = 234.0
-offset_bottom = 655.0
-theme_override_fonts/font = ExtResource("3_q62yg")
-theme_override_font_sizes/font_size = 20
-theme_override_styles/hover = ExtResource("4_rvl5c")
-theme_override_styles/pressed = ExtResource("4_rvl5c")
-theme_override_styles/normal = ExtResource("5_nanfa")
-text = "Back
-"
+offset_left = 285.0
+offset_top = 259.0
+offset_right = 995.0
+offset_bottom = 509.0
+texture = ExtResource("4_05ktk")
+expand_mode = 1
 
 [node name="deleteSlot1" type="Button" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 25.0
 offset_top = 45.0
@@ -141,8 +160,10 @@ theme_override_font_sizes/font_size = 25
 theme_override_styles/hover = ExtResource("7_5it4m")
 theme_override_styles/normal = ExtResource("8_k1krm")
 text = "✖"
+metadata/_edit_group_ = true
 
 [node name="deleteSlot2" type="Button" parent="."]
+visible = false
 layout_mode = 0
 offset_left = 25.0
 offset_top = 280.0
@@ -152,17 +173,19 @@ theme_override_font_sizes/font_size = 25
 theme_override_styles/hover = ExtResource("7_5it4m")
 theme_override_styles/normal = ExtResource("8_k1krm")
 text = "✖"
+metadata/_edit_group_ = true
 
-[connection signal="button_down" from="Quit" to="." method="_on_button_button_down"]
-[connection signal="button_down" from="Quit" to="." method="_on_button_2_button_down"]
-[connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
-[connection signal="button_down" from="Settings" to="." method="_on_button_button_down"]
-[connection signal="button_down" from="Settings" to="." method="_on_settings_button_down"]
+[connection signal="button_down" from="back" to="." method="_on_back_button_down"]
+[connection signal="button_down" from="SaveSlot2" to="." method="_on_save_slot_2_button_down"]
+[connection signal="button_down" from="SaveSlot1" to="." method="_on_save_slot_1_button_down"]
+[connection signal="button_down" from="fullscreen" to="." method="_on_fullscreen_button_down"]
 [connection signal="button_down" from="Start" to="." method="_on_button_button_down"]
 [connection signal="button_down" from="Start" to="." method="_on_button_3_button_down"]
 [connection signal="button_down" from="Start" to="." method="_on_start_button_down"]
-[connection signal="button_down" from="SaveSlot1" to="." method="_on_save_slot_1_button_down"]
-[connection signal="button_down" from="SaveSlot2" to="." method="_on_save_slot_2_button_down"]
-[connection signal="button_down" from="back" to="." method="_on_back_button_down"]
+[connection signal="button_down" from="Settings" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="Settings" to="." method="_on_settings_button_down"]
+[connection signal="button_down" from="Quit" to="." method="_on_button_button_down"]
+[connection signal="button_down" from="Quit" to="." method="_on_button_2_button_down"]
+[connection signal="button_down" from="Quit" to="." method="_on_quit_button_down"]
 [connection signal="button_down" from="deleteSlot1" to="." method="_on_delete_slot_1_button_down"]
 [connection signal="button_down" from="deleteSlot2" to="." method="_on_delete_slot_2_button_down"]
