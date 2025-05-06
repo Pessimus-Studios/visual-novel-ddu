@@ -30,14 +30,19 @@ directories/dch_directory={
 }
 directories/dtl_directory={
 "AskAboutRoad": "res://timelines/AskAboutRoad.dtl",
+"Cold3": "res://timelines/Cold3.dtl",
 "Forest1": "res://timelines/Forest1.dtl",
 "ForestStartSingning": "res://timelines/ForestStartSingning.dtl",
+"Joke21": "res://timelines/Joke21.dtl",
 "MrC1": "res://timelines/MrC1.dtl",
 "MrC2": "res://timelines/MrC2.dtl",
+"MrC3": "res://timelines/MrC3.dtl",
+"MrC5": "res://timelines/MrC5.dtl",
 "TheRoad1": "res://timelines/TheRoad1.dtl",
 "WhoIsMrC": "res://timelines/WhoIsMrC.dtl",
 "beginning": "res://timelines/beginning.dtl",
 "conflict1": "res://timelines/conflict1.dtl",
+"conflict2": "res://timelines/conflict2.dtl",
 "start": "res://timelines/start.dtl",
 "testline": "res://timelines/testline.dtl"
 }

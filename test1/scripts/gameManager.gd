@@ -110,10 +110,48 @@ func handle_scene_change() -> void:
 			allowOverlay = true
 			Dialogic.start("res://timelines/MrC2.dtl")
 			
+		"MrC3_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/MrC3.dtl")
+		
+		"MrC5_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/MrC5.dtl")
+		
+		
+			
 		"act1_cutScene": # Refer to cutScene2.tscn. Plays video, goes to theRoad1_timeline
 			allowOverlay = false
 			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
+			
+		"gonnadie": # Refer to cutScene2.tscn. Plays video, goes to theRoad1_timeline
+			allowOverlay = false
+			get_tree().change_scene_to_file("res://scenes/gonnadie.tscn")
 		
 		"theRoad1_timeline": #TheRoad1 in Twine
 			allowOverlay = true
 			Dialogic.start("res://timelines/TheRoad1.dtl")
+			
+		"theRoad2_timeline": #TheRoad2 in Twine
+			allowOverlay = true
+			Dialogic.start("res://timelines/TheRoad2.dtl")
+			
+		"Curious3_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/Forest1.dtl")
+
+		"Cold3_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/Cold3.dtl")
+			
+		"Joke2.1_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/Joke21.dtl")
+			
+		"Conflict1_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/conflict1.dtl")
+			
+		"Conflict2_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/conflict2.dtl")

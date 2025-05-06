@@ -10,9 +10,9 @@ mrC: This place has been a home of mine for many many years! Eheheh... I've help
 A gentle chuckle escapes your lips as you think about the names. "The Forest", "The Road".
 mrC: What's so funny, eh?
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join simon center
+join mainCharacter (Normal) center
 - Honest
-	leave simon
+	leave mainCharacter
 	You tell him that his naming convention is very rudimentary.
 	mrC: Daah, that's the whole point of it! You forget things, now and again... Being here for too long can even make you forget your name.
 	(Mr. C will remember that.)
@@ -25,7 +25,7 @@ join simon center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Curious
-	leave simon
+	leave mainCharacter
 	You remind him that you still have no idea where you are, and are a little confused with it all.
 	mrC: Ahh, come on... It's not a problem! I'll show ya. The Road is where everyone goes, no matter what!
 	(Mr. C will remember that.)
@@ -38,7 +38,7 @@ join simon center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Brutal
-	leave simon
+	leave mainCharacter
 	You say that his naming convention is a bit stupid.
 	He looks at you skeptically, and doesn't say much.
 	(Mr. C will remember that.)
@@ -51,7 +51,7 @@ join simon center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Joke
-	leave simon
+	leave mainCharacter
 	You say that, he must call his home "The House".
 	...
 	(Mr. C will remember that.)
