@@ -155,3 +155,7 @@ func handle_scene_change() -> void:
 		"Conflict2_timeline":
 			allowOverlay = true
 			Dialogic.start("res://timelines/conflict2.dtl")
+			
+		"Alone1_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/Alone1.dtl")
