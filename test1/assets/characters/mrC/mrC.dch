@@ -26,17 +26,45 @@
 "display_name": "Mr. C.",
 "mirror": false,
 "nicknames": [""],
-"offset": Vector2(0, 0),
+"offset": Vector2(0, 20),
 "portraits": {
+"exhausted": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/IMG_8407.png\""
+},
+"ignore_char_scale": true,
+"mirror": false,
+"offset": Vector2(-30, 40),
+"scale": 0.7,
+"scene": ""
+},
+"glasses tip": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/IMG_8399.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "normal": {
 "export_overrides": {
-"image": "\"res://assets/characters/mrC/images/test2.png\""
+"image": "\"res://assets/characters/mrC/images/IMG_8396.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": "",
 "sound_mood": "Mood 1"
+},
+"sad": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/IMG_8394.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
 }
 },
 "scale": 1.0
