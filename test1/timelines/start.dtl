@@ -3,8 +3,14 @@ do GameManager.save_Game()
 An aching pain is present.
 A pain soars throughout your whole body. It feels as if you were only asleep for a few minutes, but a part of your subconscious tells you that you are very, very far away.
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep. This wasn't your room.
+<<<<<<< Updated upstream
 [background arg="res://DSC00673-1.png" fade="0.8"]
 audio forestnoise "res://assets/music/thusfile.wav"
+=======
+[background arg="res://assets/backgrounds/theForest.png" fade="0.8"]
+audio forestnoise "res://assets/music/thusfile.wav" [volume="6.0" loop="true"]
+do GameManager.save_Game()
+>>>>>>> Stashed changes
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy. Uncomfortable. Nervous.
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
 Every time you look around, it's as if the forest is constantly changing and shifting.
@@ -36,7 +42,7 @@ leave youArrow [animation="Bounce Out"]
 	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You put your arms up in anticipation. Something about this guy seemed dodgy. You get into your stance, getting ready for whatever he would do.
 	He slows down for a moment and raises his arms.
-	Wait, wait...!
+	mrCwhat: Wait, wait...!
 	...Something about him makes him very unthreatening.
 	Perhaps it was a better idea to hear him out first.
 	You slowly lower your arms, but you stay cautious of the man as he approaches.

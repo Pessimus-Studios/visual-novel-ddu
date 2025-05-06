@@ -1,4 +1,4 @@
-[background arg="res://assets/backgrounds/background2.jpg" fade="0.0"]
+[background arg="res://assets/backgrounds/theClearing.png" fade="0.0"]
 [wait time="0.5"]
 join mrC center
 Following Mr. C would lead you towards a clearing. The sun was gentle. You could feel it on your skin, like a gentle hug. This wasn't so bad.
@@ -23,8 +23,7 @@ join simon center
 	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
-	After some walking, you see it in the distance. Artificial terrain.\
-	The Road.
+	After some walking, you see it in the distance. Artificial terrain.
 - Curious
 	leave simon
 	You remind him that you still have no idea where you are, and are a little confused with it all.
@@ -37,8 +36,7 @@ join simon center
 	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
-	After some walking, you see it in the distance. Artificial terrain.\
-	The Road.
+	After some walking, you see it in the distance. Artificial terrain.
 - Brutal
 	leave simon
 	You say that his naming convention is a bit stupid.
@@ -51,8 +49,7 @@ join simon center
 	The walk through the forest is calm. So calm... The sun rays are unmoving, fixed in a position, as if this world had no concept of time.
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
-	After some walking, you see it in the distance. Artificial terrain.\
-	The Road.
+	After some walking, you see it in the distance. Artificial terrain.
 - Joke
 	leave simon
 	You say that, he must call his home "The House".
