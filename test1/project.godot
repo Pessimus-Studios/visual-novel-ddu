@@ -25,7 +25,8 @@ directories/dch_directory={
 "mainCharacter": "res://assets/characters/mainCharacter/mainCharacter.dch",
 "mrC": "res://assets/characters/mrC/mrC.dch",
 "mrCwhat": "res://assets/characters/mrC/mrCwhat.dch",
-"simon": "res://assets/characters/testcharacter/simon.dch"
+"simon": "res://assets/characters/testcharacter/simon.dch",
+"youArrow": "res://assets/characters/mainCharacter/youArrow.dch"
 }
 directories/dtl_directory={
 "Forest1": "res://timelines/Forest1.dtl",

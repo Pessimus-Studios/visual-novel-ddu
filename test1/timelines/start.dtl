@@ -1,10 +1,10 @@
+do GameManager.save_Game()
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 An aching pain is present.
 A pain soars throughout your whole body. It feels as if you were only asleep for a few minutes, but a part of your subconscious tells you that you are very, very far away.
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep. This wasn't your room.
 [background arg="res://DSC00673-1.png" fade="0.8"]
 audio forestnoise "res://assets/music/thusfile.wav"
-do GameManager.save_Game()
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy. Uncomfortable. Nervous.
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
 Every time you look around, it's as if the forest is constantly changing and shifting.
@@ -17,6 +17,9 @@ You start to take a few steps back.
 "No, wait wait! I'll be right with you!"
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 join mainCharacter center [animation="Instant In" length="0.0"]
+join youArrow center [animation="Bounce In"]
+[wait time="3.0" skippable="true"]
+leave youArrow [animation="Bounce Out"]
 - Wait
 	leave mainCharacter [animation="Instant Out" length="0.0"]
 	He continues to stumble as he walks. It looks like he has been running for a long time.
@@ -42,4 +45,5 @@ join mainCharacter center [animation="Instant In" length="0.0"]
 	You raise an eyebrow and cross your arms as you watch him approach.
 	[shake]What a weirdo...[/shake]
 	He stumbles his way towards you. Perhaps he has an injured knee. Or, perhaps he wasn't all there. He seemed friendly enough for you to wait.
+do GameManager.save_Game()
 do GameManager.change_game_stage("MrC1_timeline")

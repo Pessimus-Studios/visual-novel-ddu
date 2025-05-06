@@ -42,7 +42,7 @@ overrides = {
 "box_margin_bottom": "0.0",
 "box_size": "Vector2(1024, 192)",
 "name_label_box_offset": "Vector2(20, -20)",
-"name_label_custom_font_size": "30.0",
+"name_label_custom_font_size": "20.0",
 "name_label_use_global_font_size": "false",
 "normal_font": "\"res://Fonts/Andika-Regular.ttf\"",
 "text_size": "24.0",
@@ -88,4 +88,4 @@ layer_info = {
 }
 base_overrides = {}
 layers = Array[ExtResource("1_5j8ui")]([])
-metadata/_latest_layer = "15"
+metadata/_latest_layer = "13"

@@ -3,37 +3,46 @@ extends Node
 var gameStage: String = "start"
 var saveSlot: String
 var currentMood: int = 10
-var desaturation_overlay: CanvasLayer
-var overlay_scene = preload("res://scenes/saturatrionDrain.tscn")
+var desaturationOverlay: CanvasLayer
+var overlayScene = preload("res://scenes/saturatrionDrain.tscn")
+var noOverlay: bool = true
 
 func _ready() -> void:
 	handle_scene_change()
 	# Preload but don't instantiate yet
 	preload("res://scenes/saturatrionDrain.tscn")
 
+func _unhandled_input(event):
+	if noOverlay:
+		pass
+	else:
+		if event is InputEventKey:
+			if event.pressed and event.keycode == KEY_ESCAPE:
+				pass
+
 func enable_desaturation(intensity: float = 1.0):
-	if not is_instance_valid(desaturation_overlay):
+	if not is_instance_valid(desaturationOverlay):
 		var overlay_scene = preload("res://scenes/saturatrionDrain.tscn")
-		desaturation_overlay = overlay_scene.instantiate()
+		desaturationOverlay = overlay_scene.instantiate()
 		# Make it persist through scene changes
-		desaturation_overlay.set_meta("_persist", true)
-		get_tree().root.call_deferred("add_child", desaturation_overlay)
-		desaturation_overlay.layer = 128
+		desaturationOverlay.set_meta("_persist", true)
+		get_tree().root.call_deferred("add_child", desaturationOverlay)
+		desaturationOverlay.layer = 128
 
 	# Always set intensity, even if overlay already exists
-	var color_rect = desaturation_overlay.get_node("ColorRect")
+	var color_rect = desaturationOverlay.get_node("ColorRect")
 	color_rect.material.set_shader_parameter("intensity", intensity)
 	
 func disable_desaturation() -> void:
-	if not is_instance_valid(desaturation_overlay):
+	if not is_instance_valid(desaturationOverlay):
 		var overlay_scene = preload("res://scenes/saturatrionDrain.tscn")
-		desaturation_overlay = overlay_scene.instantiate()
+		desaturationOverlay = overlayScene.instantiate()
 		# Make it persist through scene changes
-		desaturation_overlay.set_meta("_persist", true)
-		get_tree().root.call_deferred("add_child", desaturation_overlay)
-		desaturation_overlay.layer = 128
+		desaturationOverlay.set_meta("_persist", true)
+		get_tree().root.call_deferred("add_child", desaturationOverlay)
+		desaturationOverlay.layer = 128
 		
-	var color_rect = desaturation_overlay.get_node("ColorRect")
+	var color_rect = desaturationOverlay.get_node("ColorRect")
 	color_rect.material.set_shader_parameter("intensity", 0)
 		
 # Function that changes the gameStage to the string it recieves and updates the game stage.
