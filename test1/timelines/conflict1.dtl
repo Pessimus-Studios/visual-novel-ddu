@@ -1,0 +1,21 @@
+The two of you continue to walk for a long time. 
+Your conversations together would be a bit of the same.
+But, of course, as any road trip goes... There is a point when you run out of things to talk about.
+Walking quietly was fine, too. That wasn't an issue. 
+mrC: We're gettin' close. Hold yer horses...! Patience. And ye shall be rewarded.
+Mr. C looks around cautiously. You couldn't help but notice that it got a little darker.
+A part of you starts to doubt if you'll ever return.
+You'd notice that the sun contines to lower. Mr. C seems to get a little uneasy, and turns his attention to you.
+You start to wonder if you're going the right way.
+What if Mr. C. doesn't know where he's going?
+What if you're getting further away?
+audio forestnoise -
+audio music -
+leave --All-- [animation="Instant Out" length="0.0"]
+What if you never return?
+You're going to die here.
+join simon center
+- NO I WONT
+- NO I WONT
+- NO I WONT
+- NO I WONT
