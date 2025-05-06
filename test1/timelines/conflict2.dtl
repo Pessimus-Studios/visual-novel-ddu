@@ -1,0 +1,12 @@
+[clear time="0.0"]
+mrC: Hey, are you alright?
+- NO
+- NO
+- NO
+- NO
+mrC: You can talk to me.
+mrC: ...I'm here if you need me.
+mrC: Not that there's anyone else around.
+mrC: We're almost there. Just hold on.
+[background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
+audio -

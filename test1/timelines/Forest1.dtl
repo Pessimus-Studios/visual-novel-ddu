@@ -24,13 +24,18 @@ join mainCharacter center
 - Insist
 	leave simon
 	You double down, and continue to ask him about the Forest. Where exactly were you? You needed answers, and now.
+	mrC: I ehh... Already told you as much as I know about the Forest. Really. It's the outskirts of the Road. Not sure what else to say...
+	mrC: ...
+	Mr. C. looks a little down.
+	He doesn't seem to want to talk to you, at the moment.
+	do GameManager.change_game_stage("Cold3_timeline")
 - Start singing
-	leave simon
+	leave mainCharacter
 	You don't like the silence. Not one bit. A once cheery guide of yours, now silent.
-	/Lived a man, who sailed the sea.../
+	[shake]Lived a man, who sailed the sea...[/shake]
 	You continue one of his songs, one that he was singing earlier.
 	His face lights up. He continues.
-	mrC: /...And he told us of his life...~/
+	mrC: ...And he told us of his life...~
 	mrC: Yeah, yeah! Ye'r gettin' it! Eheheh...!
 	He cackles to himself, as he chimes in. His voice is reanimated once more, as a smile forms on his lips.
 	He starts to pick up the pace a little, raising his hand up and motioning for you to follow.
@@ -43,7 +48,7 @@ join mainCharacter center
 	mrC: I'm willing to answer! Nobody's wanted to ask me a question before!
 	It seems as if he could tell that you wanted to ask a question.
 	It wouldn't hurt to ask something.
-	do GameManager.change_game_stage("ForestStartSinging_scene")
+	do GameManager.change_game_stage("Joke2.1_timeline")
 - About yourself
 	leave simon
 	You glance down as you walk with him. The silence wasn't ideal.

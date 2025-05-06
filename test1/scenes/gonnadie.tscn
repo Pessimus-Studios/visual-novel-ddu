@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmx3g6vkr2uph"]
+
+[ext_resource type="Script" path="res://scripts/gonnadie.gd" id="1_savyt"]
+[ext_resource type="VideoStream" path="res://assets/video/anxmoment.ogv" id="2_o6goh"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_savyt")
+
+[node name="VideoStreamPlayer" type="VideoStreamPlayer" parent="."]
+layout_mode = 0
+offset_left = -185.0
+offset_top = 1.0
+offset_right = 1182.0
+offset_bottom = 770.0
+stream = ExtResource("2_o6goh")
+volume_db = 6.0
+autoplay = true
+expand = true
+
+[connection signal="finished" from="VideoStreamPlayer" to="." method="_on_video_stream_player_finished"]

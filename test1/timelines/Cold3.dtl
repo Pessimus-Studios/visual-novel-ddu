@@ -1,0 +1,34 @@
+leave --All--
+You insult him. He goes away.
+You continue down the Road.
+[background arg="res://assets/backgrounds/black.jpg" fade="0.5"]
+[wait time="5.0"]
+[background arg="res://assets/backgrounds/thePath.jpg" fade="0.5"]
+[wait time="1.0"]
+After a few hours, it becomes a dirt path.
+You continue to walk. In silence. For hours. Maybe even days.
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[wait time="3.0"]
+[background arg="res://assets/backgrounds/theRoom.png" fade="2.0"]
+[wait time="2.0"]
+You find a shack, and decide to enter it.
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[wait time="2.0"]
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+...
+It's...
+It's your room.
+But something's off.
+You've returned. You're home.
+[shake] YOU DIDN'T DESERVE TO. [/shake]
+It's as if time was frozen.
+You feel a presense. Somewhere.
+It's you.
+...
+- GIVE UP
+- GIVE UP
+- GIVE UP
+- GIVE UP
+[shake]Are you giving up already?[/shake]
+[shake]We were never nice.[/shake]
+[shake]Good riddens.[/shake]

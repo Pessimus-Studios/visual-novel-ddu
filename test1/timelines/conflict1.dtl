@@ -1,4 +1,7 @@
+[clear time="1.0"]
 [background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
+audio forestnoise "res://assets/music/thusfile.wav"
+join mrC center
 The two of you continue to walk for a long time.
 Your conversations together would be a bit of the same.
 But, of course, as any road trip goes... There is a point when you run out of things to talk about.
@@ -14,10 +17,4 @@ audio forestnoise -
 audio music -
 leave --All-- [animation="Instant Out" length="0.0"]
 What if you never return?
-You're going to die here.
-[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join simon center
-- NO I WONT
-- NO I WONT
-- NO I WONT
-- NO I WONT
+do GameManager.change_game_stage("gonnadie")
