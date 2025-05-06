@@ -1,5 +1,6 @@
-join mrC center
+join mrC (exhausted) center
 mrCwhat: Phew...
+update mrC (normal) center [animation="Tada" wait="true"]
 mrCwhat: Greetings, traveller! I watched ya arrive! You had quite the fall!
 mrC: My name is Mr. C. But you can call me... Mr. C!
 audio music "res://assets/music/bgmusic1.mp3" [loop="true"]
