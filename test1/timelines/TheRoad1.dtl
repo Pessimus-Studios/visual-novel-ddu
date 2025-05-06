@@ -1,4 +1,5 @@
 [background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
+audio forestnoise "res://assets/music/thusfile.wav"
 Asphalt. No signs. Trees on either side. No kidding, it was in fact a road.
 The smell was the same. The smell of leaves. there was no wind either. Everything was calm, eerily quiet. The only sounds that kept you sane were the erratic footsteps and skips of Mr. C.
 join mrC left
@@ -12,10 +13,10 @@ mrC: [shake]Yellow submarine, yellow submarine... In the town...! Where I was bo
 He continued to hum and sing a few songs as you walked. He never finished them, and would stop in the middle of the song. He would then walk in silence for a moment, and then start another.
 Despite the medieval clothing style, he hums contemporary songs. He continues to do so.
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join simon center [animation="Instant In" length="0.0"]
+join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 update mrC center [move_time="0.5"]
 - Forest
-	leave simon
+	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	You catch him in one of his moments of silence, and ask about where exactly you were. It still didn't make a whole lot of sense to you. What was "The Road"? "The Forest"? What is going on?
 	Mr. C. stops his humming, and turns to look at you. He continues his walk, and stretches his arms up with a groan.
@@ -28,18 +29,39 @@ update mrC center [move_time="0.5"]
 	mrC: But it seems that everyone who comes down here comes from their sleep! I have yet to meet anyone who says they fall wide awake. I- Eheheh... I'm not so sure, really...
 	He looks down, as if he is a little bit lost himself.
 	A wave of silence comes. Perhaps it was time to say something.
+	[clear time="0.5" portraits="false" music="false" background="false" positions="false" style="false"]
+	do GameManager.change_game_stage("Curious3_timeline")
 - Mr. C
-	leave simon
+	leave mainCharacter
 	update mrC left [move_time="0.5"]
-	do GameManager.change_game_stage("WhoIsMrC_scene")
+	do GameManager.change_game_stage("Curious3_timeline")
 - Small Talk
-	leave simon
+	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	You bring up small talk.
-	You ask where he got the cloak from. He says that he doesn't know either, and that he's just had it for the longest time. He brings up an anecdote, about the kind of people he meets here.
-	mrC: I've met people from all walks of life! Some fall early on the Road, and some fall not so far from the end.
-	Here, you learn a bit about how
+	You decide to ask where he got the cloak from.
+	update mrC center [move_time="0.5"]
+	mrC: Oh, this? This thing... Eheh. Well, let's just say I got it from someone very special...
+	mrC: ...Because I'm not quite sure! I've just always had this thing. Maybe I'm just born with it.
+	mrC: That's how it goes!
+	mrC: I've met people from all walks of life! Some fall a bit early down the Road... Some even fall around the End. I just happen to be there!
+	mrC: Right place, right time... But- I dunno. I feel like I've missed a few people. You never know!
+	mrC: I couldn't tell ya.
+	mrC: I'm sorry for being so vague about everything... I can't really say much! It's all a little confusing... If I tell ya anything, it may collapse...
+	mrC: THE FABRIC OF THE UNIVERSE!!!
+	mrC: Who knows?
+	A chuckle escapes his lips. He shakes his head.
+	mrC: Things get a little fuzzy, the longer you're here... Y'know?
+	mrC: Perhaps you've felt that effect at some point...
+	You seem to recall feeling very dizzy when he wasn't around, just when you arrived.
+	Although, that could have been from the fall.
+	mrC: Come now, cap-i-tan!
+	He starts to hum once more.
+	You and Mr. C continue to walk for some time.
+	Perhaps it was an idea to ask something else.
+	mrC: THE FABRIC OF THE UNIVERSE!!!
+	mrC: THE FABRIC OF THE UNIVERSE!!!
 - Join
-	leave simon
+	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	You join in on his singing.

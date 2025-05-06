@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://bw2nnpvcvw64q"]
 
 [ext_resource type="Script" path="res://scripts/cut_scene_1.gd" id="1_ngwul"]
-[ext_resource type="VideoStream" path="res://assets/video/beta2op.ogv" id="2_ps5ns"]
+[ext_resource type="VideoStream" path="res://assets/video/finalintro.ogv" id="2_i00tp"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -15,7 +15,8 @@ layout_mode = 0
 offset_left = -170.0
 offset_right = 1197.0
 offset_bottom = 769.0
-stream = ExtResource("2_ps5ns")
+stream = ExtResource("2_i00tp")
+volume_db = -8.56
 autoplay = true
 expand = true
 buffering_msec = 10

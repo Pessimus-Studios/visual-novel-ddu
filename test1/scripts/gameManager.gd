@@ -83,3 +83,6 @@ func handle_scene_change() -> void:
 		
 		"theRoad1_timeline": #TheRoad1 in Twine
 			Dialogic.start("res://timelines/TheRoad1.dtl")
+			
+		"Curious3_timeline":
+			Dialogic.start("res://timelines/Forest1.dtl")
