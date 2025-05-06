@@ -22,9 +22,9 @@ Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
 [dialogic]
 
 directories/dch_directory={
+"mainCharacter": "res://assets/characters/mainCharacter/mainCharacter.dch",
 "mrC": "res://assets/characters/mrC/mrC.dch",
 "mrCwhat": "res://assets/characters/mrC/mrCwhat.dch",
-"overlay": "res://overlay.dch",
 "simon": "res://assets/characters/testcharacter/simon.dch"
 }
 directories/dtl_directory={

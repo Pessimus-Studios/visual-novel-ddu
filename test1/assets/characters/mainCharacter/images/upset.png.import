@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hakpvm7n446p"
-path="res://.godot/imported/MCspritetest2.png-66c64878aeb99a0b2e4d0c4ec3e56880.ctex"
+uid="uid://sybgkrwjf5ma"
+path="res://.godot/imported/upset.png-e4ce6e2e3145943037ccada008a68c8d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mainCharacter/images/MCspritetest2.png"
-dest_files=["res://.godot/imported/MCspritetest2.png-66c64878aeb99a0b2e4d0c4ec3e56880.ctex"]
+source_file="res://assets/characters/mainCharacter/images/upset.png"
+dest_files=["res://.godot/imported/upset.png-e4ce6e2e3145943037ccada008a68c8d.ctex"]
 
 [params]
 

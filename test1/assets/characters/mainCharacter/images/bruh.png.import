@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dggyf0e7cur67"
-path="res://.godot/imported/MCspritetest.png-cff52b1514d1293100af1c5b9cf8c13c.ctex"
+uid="uid://cd40py4iogwb2"
+path="res://.godot/imported/bruh.png-ec54c9aa75f9dcaf254fd622f07da1a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/characters/mainCharacter/images/MCspritetest.png"
-dest_files=["res://.godot/imported/MCspritetest.png-cff52b1514d1293100af1c5b9cf8c13c.ctex"]
+source_file="res://assets/characters/mainCharacter/images/bruh.png"
+dest_files=["res://.godot/imported/bruh.png-ec54c9aa75f9dcaf254fd622f07da1a2.ctex"]
 
 [params]
 
