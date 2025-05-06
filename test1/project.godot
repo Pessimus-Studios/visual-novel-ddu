@@ -16,8 +16,8 @@ config/features=PackedStringArray("4.3", "Mobile")
 
 [autoload]
 
-GameManager="*res://scripts/gameManager.gd"
 Dialogic="*res://addons/dialogic/Core/DialogicGameHandler.gd"
+GameManager="*res://scripts/gameManager.gd"
 
 [dialogic]
 
@@ -28,10 +28,13 @@ directories/dch_directory={
 "simon": "res://assets/characters/testcharacter/simon.dch"
 }
 directories/dtl_directory={
+"AskAboutRoad": "res://timelines/AskAboutRoad.dtl",
 "Forest1": "res://timelines/Forest1.dtl",
+"ForestStartSingning": "res://timelines/ForestStartSingning.dtl",
 "MrC1": "res://timelines/MrC1.dtl",
 "MrC2": "res://timelines/MrC2.dtl",
 "TheRoad1": "res://timelines/TheRoad1.dtl",
+"WhoIsMrC": "res://timelines/WhoIsMrC.dtl",
 "beginning": "res://timelines/beginning.dtl",
 "start": "res://timelines/start.dtl",
 "testline": "res://timelines/testline.dtl"

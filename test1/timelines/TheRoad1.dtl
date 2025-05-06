@@ -31,7 +31,7 @@ update mrC center [move_time="0.5"]
 - Mr. C
 	leave simon
 	update mrC left [move_time="0.5"]
-	You ask about Mr. C.
+	do GameManager.change_game_stage("WhoIsMrC_scene")
 - Small Talk
 	leave simon
 	update mrC left [move_time="0.5"]

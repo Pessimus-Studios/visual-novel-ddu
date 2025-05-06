@@ -32,7 +32,34 @@ join simon center
 	You double down, and continue to ask him about the Forest. Where exactly were you? You needed answers, and now.
 - Start singing
 	leave simon
-	Start singing
+	You don't like the silence. Not one bit. A once cheery guide of yours, now silent.
+	/Lived a man, who sailed the sea.../
+	You continue one of his songs, one that he was singing earlier.
+	His face lights up. He continues.
+	mrC: /...And he told us of his life...~/
+	mrC: Yeah, yeah! Ye'r gettin' it! Eheheh...!
+	He cackles to himself, as he chimes in. His voice is reanimated once more, as a smile forms on his lips.
+	He starts to pick up the pace a little, raising his hand up and motioning for you to follow.
+	You couldn't help it, as you also cracked a smile. There was something about his carefree style.
+	He starts to hum as he walks again, with a light swing in his step.
+	mrC: It gets quiet here... People don't come very often! Time doesn't move very fast here... Come to think of it, time only moves when people are around!
+	Mr. C. looks at you inquisitively as you walk with him.
+	He turns his body a little bit to you as you walk.
+	mrC: ...I see that look in yer eyes... Ask, ask!
+	mrC: I'm willing to answer! Nobody's wanted to ask me a question before!
+	It seems as if he could tell that you wanted to ask a question.
+	It wouldn't hurt to ask something.
+	do GameManager.change_game_stage("ForestStartSinging_scene")
 - About yourself
 	leave simon
-	You start to talk about yourself.
+	You glance down as you walk with him. The silence wasn't ideal.
+	Perhaps it was time to say something about yourself.
+	You tell him about what you remember just before meeting him.
+	You don't say much at first, of course. You aren't sure how exactly you'd put it into words.
+	You decide to tell him a bit about yourself.
+	You tell him your name. You tell him where your from.
+	mrC: Oh? Not sure how surprising it is, but I've heard that name before.
+	mrC: That's always interesting.
+	In return, Mr. C looks off into the distance.
+	He shakes it off.
+	mrC: So, friend! Any uh... Any questions? Any at all! I wouldn't mind ansswering them.
