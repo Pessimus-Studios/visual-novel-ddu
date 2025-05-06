@@ -19,11 +19,23 @@ func enable_desaturation(intensity: float = 1.0):
 		desaturation_overlay.set_meta("_persist", true)
 		get_tree().root.call_deferred("add_child", desaturation_overlay)
 		desaturation_overlay.layer = 128
-	
+
 	# Always set intensity, even if overlay already exists
 	var color_rect = desaturation_overlay.get_node("ColorRect")
 	color_rect.material.set_shader_parameter("intensity", intensity)
-
+	
+func disable_desaturation() -> void:
+	if not is_instance_valid(desaturation_overlay):
+		var overlay_scene = preload("res://scenes/saturatrionDrain.tscn")
+		desaturation_overlay = overlay_scene.instantiate()
+		# Make it persist through scene changes
+		desaturation_overlay.set_meta("_persist", true)
+		get_tree().root.call_deferred("add_child", desaturation_overlay)
+		desaturation_overlay.layer = 128
+		
+	var color_rect = desaturation_overlay.get_node("ColorRect")
+	color_rect.material.set_shader_parameter("intensity", 0)
+		
 # Function that changes the gameStage to the string it recieves and updates the game stage.
 # Call the function by: GameManager.change_game_stage("")
 func change_game_stage(new_stage: String) -> void:

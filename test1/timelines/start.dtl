@@ -9,6 +9,7 @@ You get up, and take in your surroundings. A forest, stretching far off into the
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
 do GameManager.enable_desaturation()
 Every time you look around, it's as if the forest is constantly changing and shifting.
+do GameManager.disable_desaturation()
 mrCwhat: Hey, you there!
 You see a man, off in the distance. He calls to you. A friendly voice, but you feel at unease. You still don't know where you are.
 mrCwhat: Hey! Can you even hear me?
