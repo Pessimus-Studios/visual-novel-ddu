@@ -2,7 +2,8 @@
 An aching pain is present.
 It feels as if you only slept for a few minutes, yet you feel as if you are very, very far away...
 The sound of rustling leaves, the smell of bark, and the dry dirt surface underneath you. Definitely not where you fell asleep.
-[background arg="res://assets/backgrounds/background3.jpg" fade="0.5"]
+[background arg="res://assets/backgrounds/DSC00673-1.png" fade="0.5"]
+[save slot="1"]
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy.
 mrCwhat: Hey, you there!
 You see a man, off in the distance. He calls to you. A friendly voice, but you feel at unease. You still don't know where you are.
@@ -106,7 +107,7 @@ join simon (anim/frame1) center [animation="Instant In" length="0.0"]
 	Maybe the lack of moving time has an affect on people. You wonder if he is truly alone here, or if he simply forgets the people he meets. Come to think of it, the whole forest feels the same.
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
-The Road.
+[save slot="1"]
 leave mrC [animation="Instant Out" length="0.0"]
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0" transition="Simple Fade"]
 audio music -
