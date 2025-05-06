@@ -5,9 +5,9 @@ The sound of rustling leaves, the smell of bark, and the dry dirt surface undern
 [background arg="res://DSC00673-1.png" fade="0.8"]
 audio forestnoise "res://assets/music/thusfile.wav"
 do GameManager.save_Game()
-do GameManager.enable_desaturation()
 You get up, and take in your surroundings. A forest, stretching far off into the distance. The sight alone makes you a little dizzy. Uncomfortable. Nervous.
 You pick yourself up from the ground. It was quiet. Far too quiet. You try to take a step forward, but you feel locked in place.
+do GameManager.enable_desaturation()
 Every time you look around, it's as if the forest is constantly changing and shifting.
 mrCwhat: Hey, you there!
 You see a man, off in the distance. He calls to you. A friendly voice, but you feel at unease. You still don't know where you are.

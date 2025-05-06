@@ -57,6 +57,7 @@ func _on_start_button_down() -> void:
 
 # Code for save button 1
 func _on_save_slot_1_button_down() -> void:
+	hide_buttons([$SaveSlot1, $deleteSlot1, $SaveSlot2, $deleteSlot2, $fullscreen, $back])
 	if Dialogic.Save.has_slot("1"):
 		GameManager.game_save_slot("1")
 		Dialogic.Save.load("1")
@@ -66,6 +67,7 @@ func _on_save_slot_1_button_down() -> void:
 
 # Code for save button 2
 func _on_save_slot_2_button_down() -> void:
+	hide_buttons([$SaveSlot1, $deleteSlot1, $SaveSlot2, $deleteSlot2, $fullscreen, $back])
 	if Dialogic.Save.has_slot("2"):
 		GameManager.game_save_slot("2")
 		Dialogic.Save.load("2")

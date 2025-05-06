@@ -11,14 +11,16 @@ func _ready() -> void:
 	# Preload but don't instantiate yet
 	preload("res://scenes/saturatrionDrain.tscn")
 
-func enable_desaturation(intensity: float = 1.0) -> void:
-	if not desaturation_overlay:
+func enable_desaturation(intensity: float = 1.0):
+	if not is_instance_valid(desaturation_overlay):
 		var overlay_scene = preload("res://scenes/saturatrionDrain.tscn")
 		desaturation_overlay = overlay_scene.instantiate()
-		get_tree().root.add_child(desaturation_overlay)
-		# Move it to the top (in case other CanvasLayers exist)
-		desaturation_overlay.layer = 128  # High number to ensure it's on top
+		# Make it persist through scene changes
+		desaturation_overlay.set_meta("_persist", true)
+		get_tree().root.call_deferred("add_child", desaturation_overlay)
+		desaturation_overlay.layer = 128
 	
+	# Always set intensity, even if overlay already exists
 	var color_rect = desaturation_overlay.get_node("ColorRect")
 	color_rect.material.set_shader_parameter("intensity", intensity)
 
