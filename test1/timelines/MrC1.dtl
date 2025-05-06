@@ -1,6 +1,6 @@
 join mrC center
-mrC: Phew...
-mrC: Greetings, traveller! I watched ya arrive! You had quite the fall!
+mrCwhat: Phew...
+mrCwhat: Greetings, traveller! I watched ya arrive! You had quite the fall!
 mrC: My name is Mr. C. But you can call me... Mr. C!
 audio music "res://assets/music/bgmusic1.mp3" [loop="true"]
 mrC: I watched you fall from the sky. I thought... Some kinda bird, there! I looked closely and, it wan' no bird! It was a human!
