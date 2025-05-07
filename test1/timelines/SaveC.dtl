@@ -1,10 +1,12 @@
-[wait time="3.0"]
+do GameManager.save_Game()
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[wait time="1.0"]
 It's warm.
 The sounds of a crackling campfire. You couldn't mistake it for anything else.
 You see him gently poking some sticks around, making sure that the fire doesn't die.
 He sees you, stirring awake.
 A gasp is heard as he approaches.
-[background arg="res://assets/backgrounds/theClearing.png" fade="0.0"]
+[background arg="res://assets/backgrounds/thePath.jpg" fade="0.0"]
 mrC: You! Traveller!
 join mrC (neutral) center
 mrC: Welcome back! I was thinking you'd never wake up...
@@ -21,9 +23,8 @@ mrC: But thank you.
 mrC: Really.
 mrC: That Storm was the worst I've ever seen...
 mrC: ...Would you like to talk about it?
-mrC: You tell him that you're fine. 
-mrC: Mr. C gives you a hug.
-mrC: ...
+You tell him that you're fine.
+Mr. C gives you a hug.
+[shake]... [/shake]
 It was time to move forwards.
-[clear time="1.0"]
-END OF DEMO
+do GameManager.change_game_stage("Thanks")

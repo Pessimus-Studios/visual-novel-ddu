@@ -1,4 +1,6 @@
-[background arg="res://assets/backgrounds/theClearing.png" fade="0.0"]
+do GameManager.save_Game()
+audio music "res://assets/music/Fallen to C.mp3" [volume="-22.0" loop="true"]
+[background arg="res://assets/backgrounds/DSC00675.png" fade="0.0"]
 [wait time="0.5"]
 join mrC center
 Following Mr. C would lead you towards a clearing. The sun was gentle. You could feel it on your skin, like a gentle hug. This wasn't so bad.
@@ -9,9 +11,10 @@ Mr. C gently hums as he walks, between speaking.
 mrC (singing1): This place has been a home of mine for many many years! Eheheh... I've helped people like you my whole life! The Forest. The Road! I am the Gatekeeper. I am the guide! You are the cap-i-tan, I am the grease in the elbow, the caviar with the wine!
 A gentle chuckle escapes your lips as you think about the names. "The Forest", "The Road".
 mrC (neutral): What's so funny, eh?
-[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join mainCharacter (Normal) center
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
+join mainCharacter (Normal) center [animation="Instant In"]
 - Honest
+	do GameManager.save_Game()
 	leave mainCharacter
 	You tell him that his naming convention is very rudimentary.
 	mrC (neutral): Daah, that's the whole point of it! You forget things, now and again... Being here for too long can even make you forget your name.
@@ -25,6 +28,7 @@ join mainCharacter (Normal) center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Curious
+	do GameManager.save_Game()
 	leave mainCharacter
 	You remind him that you still have no idea where you are, and are a little confused with it all.
 	mrC (neutral): Ahh, come on... It's not a problem! I'll show ya. The Road is where everyone goes, no matter what!
@@ -38,6 +42,7 @@ join mainCharacter (Normal) center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Brutal
+	do GameManager.save_Game()
 	leave mainCharacter
 	You say that his naming convention is a bit stupid.
 	He looks at you skeptically, and doesn't say much.
@@ -51,6 +56,7 @@ join mainCharacter (Normal) center
 	Turning around, you can barely recognize where you've come from, as if you have already walked a few kilometers, yet you've barely walked one.
 	After some walking, you see it in the distance. Artificial terrain.
 - Joke
+	do GameManager.save_Game()
 	leave mainCharacter
 	You say that, he must call his home "The House".
 	join mrC (huh) center

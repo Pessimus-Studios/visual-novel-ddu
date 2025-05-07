@@ -1,39 +1,62 @@
 [clear time="0.0"]
+audio music "res://assets/music/tv-static-323620.mp3" [fade="3.0" volume="-16.0"]
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 mrC: Hey, are you alright?
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-- NO
-- NO
-- NO
-- NO
+do GameManager.enable_desaturation()
+join mainCharacter (sad1) center [animation="Instant In" length="0.0"]
+- I'M FINE
+- I'M FINE
+- I'M FINE
+- I'M FINE
+leave mainCharacter [animation="Instant Out" length="0.0"]
+do GameManager.disable_desaturation()
+[shake]Yeah right[/shake]
+audio music - [fade="0.5"]
+mrC: ...
 mrC: You can talk to me.
 mrC: ...I'm here if you need me.
 mrC: Not that there's anyone else around.
 mrC: We're getting there...! Hang on tight...
-[background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
-audio forestnoise "res://assets/music/thusfile.wav"
-As you walk with him... The Road starts to darken a little.
+[background arg="res://assets/backgrounds/theRoad2.png" fade="3.0"]
+join mrC center [animation="Fade In" length="10.0"]
+audio forestnoise "res://assets/music/thusfile.wav" [volume="6.0"]
+As you walk with him... The Road starts to feel more windy
 mrC (neutral): ...Say! We should start to pick up the pace.
-mrC (neutral): Really pick up the pace.
+mrC (pointing): Really pick up the pace.
 He reaches out for you to take his hand, as he starts to speed up.
 He reaches out for you to take his hand, as he starts to speed up.
+update mrC (neutral)
 You feel it. That familiar sensation of wind.
+audio forestnoise "res://assets/music/wind-blowing-sfx-12809.mp3" [fade="0.0" volume="-8.0"]
 Wind that wasn't here before.
+update mrC (huh) center [animation="Shake X" fade="Fade Cross"]
 The wind picks up. With one strong gust, Mr. C is blown away.
+leave mrC [animation="Bounce Out"]
+audio music "res://assets/music/scream-85294.mp3" [volume="-15.0" loop="false"]
 You needed to act fast.
 mrC: Go! Run!
-[clear time="1.0"]
-[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
-join mainCharacter (sad1) center
+[clear time="0.0" music="false" background="false" positions="false" style="false"]
+[background arg="res://assets/backgrounds/black.jpg" fade="4.0"]
+join mainCharacter (crying) center [animation="Instant In" length="0.0" z_index="20"]
+do GameManager.enable_desaturation()
 - Save Mr. C
-	leave --All--
+	leave mainCharacter [animation="Instant Out" length="0.0"]
+	audio forestnoise - [fade="3.0"]
+	do GameManager.disable_desaturation()
 	do GameManager.change_game_stage("SaveC_timeline")
 - Leave him behind.
-	leave --All--
+	audio forestnoise - [fade="3.0"]
+	do GameManager.disable_desaturation()
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("LeaveC_timeline")
 - Save Mr. C
-	leave --All--
+	audio forestnoise - [fade="3.0"]
+	do GameManager.disable_desaturation()
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("SaveC_timeline")
 - Leave him behind.
-	leave --All--
+	audio forestnoise - [fade="3.0"]
+	do GameManager.disable_desaturation()
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("LeaveC_timeline")

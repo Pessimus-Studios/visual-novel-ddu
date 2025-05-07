@@ -179,3 +179,6 @@ func handle_scene_change() -> void:
 		"SaveC_timeline":
 			allowOverlay = true
 			Dialogic.start("res://timelines/SaveC.dtl")
+		"Thanks":
+			allowOverlay = true
+			get_tree().change_scene_to_file("res://scenes/ThanksForDemo.tscn")

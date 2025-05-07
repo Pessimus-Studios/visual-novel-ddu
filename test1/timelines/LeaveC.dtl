@@ -1,17 +1,19 @@
-[wait time="3.0"]
+do GameManager.save_Game()
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[wait time="1.0"]
 ...
 What happened...?
+audio music "res://assets/music/tv-static-323620.mp3" [fade="5.0" volume="-20.0"]
 It's cold.
 It's very cold.
-It's quiet. Too quiet. 
+It's quiet. Too quiet.
 There is no fire.
 There is no warmth.
-You haven't returned. 
+You haven't returned.
 You aren't home.
 Mr. C.
-Mr. C is gone. 
+Mr. C is gone.
 ...
 ...
 Keep moving forwards.
-[clear time="1.0"]
-END OF DEMO
+do GameManager.change_game_stage("Thanks")

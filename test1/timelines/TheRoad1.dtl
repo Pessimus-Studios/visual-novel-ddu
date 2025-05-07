@@ -1,5 +1,6 @@
+do GameManager.save_Game()
 [background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
-audio forestnoise "res://assets/music/thusfile.wav" [volume="-7.0"]
+audio forestnoise "res://assets/music/thusfile.wav" [volume="3.0"]
 Asphalt. No signs. Trees on either side. No kidding, it was in fact a road.
 The smell was the same. The smell of leaves. there was no wind either. Everything was calm, eerily quiet. The only sounds that kept you sane were the erratic footsteps and skips of Mr. C, and the distant bird noises.
 join mrC left
@@ -14,10 +15,11 @@ mrC (singing1): Yellow submarine, yellow submarine... In the town...! Where I wa
 update mrC (neutral)
 He continued to hum and sing a few songs as you walked. He never finished them, and would stop in the middle of the song. He would then walk in silence for a moment, and then start another.
 Despite the medieval clothing style, he hums contemporary songs. He continues to do so.
-[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 update mrC center [move_time="0.5"]
-- Forest
+- What is "The Forest"?
+	do GameManager.save_Game()
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	label Forest
@@ -35,11 +37,13 @@ update mrC center [move_time="0.5"]
 	A wave of silence comes. Perhaps it was time to say something.
 	[clear time="0.5" portraits="false" music="false" background="false" positions="false" style="false"]
 	do GameManager.change_game_stage("Curious3_timeline")
-- Mr. C
+- What is your name?
+	do GameManager.save_Game()
 	leave mainCharacter
-	update mrC left [move_time="0.5"]
-	do GameManager.change_game_stage("Curious3_timeline")
+	do GameManager.change_game_stage("MrC3_timeline")
+	[end_timeline]
 - Small Talk
+	do GameManager.save_Game()
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	You bring up small talk.
@@ -64,7 +68,7 @@ update mrC center [move_time="0.5"]
 	You and Mr. C continue to walk for some time.
 	Perhaps it was an idea to ask something else.
 	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-	join mainCharacter center
+	join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- Start singing
 		jump Forest1/Joke21
 		leave mainCharacter
@@ -77,7 +81,8 @@ update mrC center [move_time="0.5"]
 	- Loneliness
 		leave mainCharacter
 		do GameManager.change_game_stage("Alone1_timeline")
-- Join
+- Sing along
+	do GameManager.save_Game()
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
 	You join in on his singing. You start to hum little bits of songs you know.

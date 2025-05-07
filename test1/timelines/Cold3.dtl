@@ -1,4 +1,6 @@
 leave --All--
+do GameManager.save_Game()
+[background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
 audio music -
 You insult him. He goes away.
 You continue down the Road.
@@ -9,28 +11,47 @@ You continue down the Road.
 After a few hours, it becomes a dirt path.
 You continue to walk. In silence. For hours. Maybe even days.
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
-[wait time="3.0"]
+[wait time="2.0"]
 [background arg="res://assets/backgrounds/theRoom.png" fade="2.0"]
 [wait time="2.0"]
 You find a shack, and decide to enter it.
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 [wait time="2.0"]
-[background arg="res://assets/backgrounds/theRoomInside.png" fade="0.0"]
+do GameManager.enable_desaturation()
 ...
 It's...
 It's your room.
+[background arg="res://assets/backgrounds/theRoomInside.png" fade="7.0"]
 But something's off.
 You've returned. You're home.
 [shake] YOU DIDN'T DESERVE TO. [/shake]
 It's as if time was frozen.
 You feel a presense. Somewhere.
 It's you.
-...
+join Me center
+Me: [shake] YOU DIDN'T DESERVE TO GET HOME. [/shake]
+Me: [shake] YOU'RE A FAILURE. [/shake]
+Me: [shake] WE ARE A FAILURE. [/shake]
+Me: [shake] WE NEVER DO ANYTHING RIGHT. [/shake]
+Me: [shake] JUST GIVE UP. [/shake]
+Me: [shake] ... [/shake]
+Me: [shake] I WANT TO GIVE UP. [/shake]
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
+
+join mainCharacter (crying) center [animation="Instant In" length="0.0"]
 - GIVE UP
 - GIVE UP
 - GIVE UP
 - GIVE UP
-[shake]Are you giving up already?[/shake]
-[shake]We were never nice.[/shake]
-[shake]Good riddens.[/shake]
-[end_timeline]
+leave mainCharacter [animation="Instant Out"]
+Me: [shake] FINALLY[/shake]
+[background arg="res://assets/backgrounds/black.jpg" fade="8.0"]
+leave Me [animation="Fade Out" length="4.0"]
+Me: [shake] WE WERE NEVER NICE.[/shake]
+Me: [shake] NOW THIS...[/shake]
+Me: [shake] THIS WE DESERVE.[/shake]
+audio "res://assets/music/genickbruch-107521.mp3"
+[wait time="2.0"]
+You died
+do GameManager.disable_desaturation()
+do GameManager.change_game_stage("Thanks")

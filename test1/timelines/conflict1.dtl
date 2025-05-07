@@ -1,4 +1,6 @@
-[clear time="1.0"]
+do GameManager.save_Game()
+[background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
+[clear time="1.0" music="false" background="false" positions="false" style="false"]
 [background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
 audio forestnoise "res://assets/music/thusfile.wav"
 audio music -
@@ -17,6 +19,7 @@ What if Mr. C. doesn't know where he's going?
 What if you're getting further away?
 audio forestnoise -
 audio music -
-leave --All-- [animation="Instant Out" length="0.0"]
+leave --All-- [animation="Fade Out" length="1.0" wait="true"]
 What if you never return?
+what if you never return?
 do GameManager.change_game_stage("gonnadie")

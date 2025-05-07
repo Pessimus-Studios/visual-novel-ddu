@@ -24,6 +24,7 @@ GameManager="*res://scripts/gameManager.gd"
 [dialogic]
 
 directories/dch_directory={
+"Me": "res://assets/characters/mainCharacter/Me.dch",
 "mainCharacter": "res://assets/characters/mainCharacter/mainCharacter.dch",
 "mrC": "res://assets/characters/mrC/mrC.dch",
 "mrCwhat": "res://assets/characters/mrC/mrCwhat.dch",

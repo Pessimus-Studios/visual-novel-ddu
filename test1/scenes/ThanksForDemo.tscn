@@ -1,0 +1,55 @@
+[gd_scene load_steps=6 format=3 uid="uid://di3mr7neky7nc"]
+
+[ext_resource type="Script" path="res://scenes/thanks_for_demo.gd" id="1_8jbws"]
+[ext_resource type="FontFile" uid="uid://d3wtymr6kea1s" path="res://Fonts/Jersey20-Regular.ttf" id="1_cmpbe"]
+[ext_resource type="Texture2D" uid="uid://dct4fuc8gcchj" path="res://assets/ui/graphics/titlebeta.png" id="2_yr32t"]
+[ext_resource type="StyleBox" uid="uid://xs2s6euq5stw" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/choice_panel_hover.tres" id="3_8qad1"]
+[ext_resource type="StyleBox" uid="uid://wrp8f7ard3uu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/choice_panel_normal.tres" id="4_em24c"]
+
+[node name="ThanksForDemo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_8jbws")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1023.0
+offset_bottom = 772.0
+color = Color(0, 0, 0, 1)
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 283.0
+offset_top = 221.0
+offset_right = 742.0
+offset_bottom = 605.0
+theme_override_fonts/font = ExtResource("1_cmpbe")
+theme_override_font_sizes/font_size = 60
+text = "THANKS FOR PLAYING
+
+
+
+(DEMO!)"
+horizontal_alignment = 1
+
+[node name="Titlebeta" type="Sprite2D" parent="."]
+position = Vector2(507, 372)
+texture = ExtResource("2_yr32t")
+
+[node name="mainMenu" type="Button" parent="."]
+offset_left = 409.0
+offset_top = 601.0
+offset_right = 619.0
+offset_bottom = 651.0
+theme_override_fonts/font = ExtResource("1_cmpbe")
+theme_override_font_sizes/font_size = 20
+theme_override_styles/hover = ExtResource("3_8qad1")
+theme_override_styles/pressed = ExtResource("3_8qad1")
+theme_override_styles/normal = ExtResource("4_em24c")
+text = "Main Menu"
+
+[connection signal="button_down" from="mainMenu" to="." method="_on_main_menu_button_down"]

@@ -1,3 +1,5 @@
+do GameManager.save_Game()
+[background arg="res://assets/backgrounds/theForest.png" fade="0.8"]
 join mrC (exhausted) center
 mrCwhat: Phew...
 update mrC (neutral) center [wait="true"]

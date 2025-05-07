@@ -12,11 +12,20 @@
 },
 "default_portrait": "Normal",
 "description": "",
-"display_name": "mainCharacter",
+"display_name": "Me",
 "mirror": false,
 "nicknames": [""],
 "offset": Vector2(0, 1),
 "portraits": {
+"Die": {
+"export_overrides": {
+"image": "\"res://assets/characters/mainCharacter/images/IMG_8355.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1,
+"scene": ""
+},
 "Normal": {
 "export_overrides": {
 "image": "\"res://assets/characters/mainCharacter/images/New Project.png\""

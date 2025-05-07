@@ -1,5 +1,8 @@
+do GameManager.save_Game()
 [background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
-join mainCharacter center
+leave mrC [animation="Instant Out" length="0.0"]
+join mrC (sad) left [animation="Instant In" length="0.0"]
+join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Comfort
 	label Curious3
 	leave mainCharacter

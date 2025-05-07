@@ -8,12 +8,9 @@ func _on_quit_button_down() -> void:
 	GameManager.pauseMenu.hide()
 	
 	GameManager.enable_desaturation()
-	await get_tree().create_timer(3.0).timeout
-	GameManager.disable_desaturation()
-	
 	GameManager.change_game_stage("start")
-	
-
+	await get_tree().create_timer(2.5).timeout
+	GameManager.disable_desaturation()
 
 func _on_settings_button_down() -> void:
 	var current_mode = DisplayServer.window_get_mode()
