@@ -1,0 +1,29 @@
+[wait time="3.0"]
+It's warm.
+The sounds of a crackling campfire. You couldn't mistake it for anything else.
+You see him gently poking some sticks around, making sure that the fire doesn't die.
+He sees you, stirring awake.
+A gasp is heard as he approaches.
+[background arg="res://assets/backgrounds/theClearing.png" fade="0.0"]
+mrC: You! Traveller!
+join mrC (neutral) center
+mrC: Welcome back! I was thinking you'd never wake up...
+mrC: You may be in a little bit of pain...
+mrC: You were struck by a falling branch right after you pulled me out of that rubble.
+mrC: But, you're fine! We are immortal here. You've just been knocked out.
+mrC: We'll get to where we need to go soon. Don't you worry. Patience, my friend.
+mrC: The Storm... I apologize. If I had known it would be so bad, I would've told you.
+mrC: Had I known you were doing so bad... I would've warned you of the Storm.
+mrC: But it's okay now.
+mrC: You're okay.
+mrC: You should've run! You shouldn'a turned around...
+mrC: But thank you.
+mrC: Really.
+mrC: That Storm was the worst I've ever seen...
+mrC: ...Would you like to talk about it?
+mrC: You tell him that you're fine. 
+mrC: Mr. C gives you a hug.
+mrC: ...
+It was time to move forwards.
+[clear time="1.0"]
+END OF DEMO

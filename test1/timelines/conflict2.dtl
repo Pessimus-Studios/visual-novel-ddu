@@ -1,5 +1,7 @@
 [clear time="0.0"]
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 mrC: Hey, are you alright?
+[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - NO
 - NO
 - NO
@@ -7,6 +9,30 @@ mrC: Hey, are you alright?
 mrC: You can talk to me.
 mrC: ...I'm here if you need me.
 mrC: Not that there's anyone else around.
-mrC: We're almost there. Just hold on.
+mrC: We're getting there...! Hang on tight...
 [background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
-audio -
+audio forestnoise "res://assets/music/thusfile.wav"
+As you walk with him... The Road starts to darken a little.
+mrC (neutral): ...Say! We should start to pick up the pace.
+mrC (neutral): Really pick up the pace.
+He reaches out for you to take his hand, as he starts to speed up.
+He reaches out for you to take his hand, as he starts to speed up.
+You feel it. That familiar sensation of wind.
+Wind that wasn't here before.
+The wind picks up. With one strong gust, Mr. C is blown away.
+You needed to act fast.
+mrC: Go! Run!
+[clear time="1.0"]
+join mainCharacter (sad1) center
+- Save Mr. C
+	leave --All--
+	do GameManager.change_game_stage("SaveC_timeline")
+- Leave him behind.
+	leave --All--
+	do GameManager.change_game_stage("LeaveC_timeline")
+- Save Mr. C
+	leave --All--
+	do GameManager.change_game_stage("SaveC_timeline")
+- Leave him behind.
+	leave --All--
+	do GameManager.change_game_stage("LeaveC_timeline")

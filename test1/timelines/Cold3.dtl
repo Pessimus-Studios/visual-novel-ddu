@@ -1,4 +1,5 @@
 leave --All--
+audio music -
 You insult him. He goes away.
 You continue down the Road.
 [background arg="res://assets/backgrounds/black.jpg" fade="0.5"]
@@ -14,7 +15,7 @@ You continue to walk. In silence. For hours. Maybe even days.
 You find a shack, and decide to enter it.
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 [wait time="2.0"]
-[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+[background arg="res://assets/backgrounds/theRoomInside.png" fade="0.0"]
 ...
 It's...
 It's your room.
@@ -32,3 +33,4 @@ It's you.
 [shake]Are you giving up already?[/shake]
 [shake]We were never nice.[/shake]
 [shake]Good riddens.[/shake]
+[end_timeline]

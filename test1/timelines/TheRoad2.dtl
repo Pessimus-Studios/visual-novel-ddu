@@ -1,0 +1,12 @@
+You ask Mr. C. about the Road once again.
+mrC (glasses): Well- Ya see... Listen.
+You could hear his tone shift a little.
+mrC (neutral): ...From what I can piece together... You haven't moved an inch.
+mrC: Now, I can't really say much more than that...
+mrC: I guide people out of here! Now- You say, you fell asleep on your desk, correct?
+You nod.
+mrC: The way I see it...
+He pauses.
+mrC (singing1): ...Ahhh... I don't think I can say.... Spoilers!
+update mrC (neutral)
+do GameManager.change_game_stage("Conflict1_timeline")

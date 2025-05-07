@@ -21,7 +21,7 @@
 "style": "style_mrC",
 "suffix": ""
 },
-"default_portrait": "normal",
+"default_portrait": "neutral",
 "description": "",
 "display_name": "Mr. C.",
 "mirror": false,
@@ -30,7 +30,7 @@
 "portraits": {
 "exhausted": {
 "export_overrides": {
-"image": "\"res://assets/characters/mrC/images/IMG_8407.png\""
+"image": "\"res://assets/characters/mrC/images/tired.png\""
 },
 "ignore_char_scale": true,
 "mirror": false,
@@ -38,37 +38,54 @@
 "scale": 0.7,
 "scene": ""
 },
-"glasses tip": {
+"glasses": {
 "export_overrides": {
-"image": "\"res://assets/characters/mrC/images/IMG_8399.png\""
+"image": "\"res://assets/characters/mrC/images/neutral_glasses.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"huh": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/huh.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"neutral": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/neutral.png\""
+},
+"mirror": false,
+"offset": Vector2(0, 0),
+"scale": 1.0,
+"scene": ""
+},
+"pointing": {
+"export_overrides": {
+"image": "\"res://assets/characters/mrC/images/pointing.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
-},
-"normal": {
-"export_overrides": {
-"image": "\"res://assets/characters/mrC/images/IMG_8396.png\""
-},
-"mirror": false,
-"offset": Vector2(0, 0),
-"scale": 1,
-"scene": "",
-"sound_mood": "Mood 1"
 },
 "sad": {
 "export_overrides": {
-"image": "\"res://assets/characters/mrC/images/IMG_8394.png\""
+"image": "\"res://assets/characters/mrC/images/sad.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),
 "scale": 1,
 "scene": ""
 },
-"stuff": {
+"singing1": {
 "export_overrides": {
-"image": "\"res://assets/characters/mrC/images/IMG_8397.png\""
+"image": "\"res://assets/characters/mrC/images/singing1.png\""
 },
 "mirror": false,
 "offset": Vector2(0, 0),

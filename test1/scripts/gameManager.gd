@@ -120,6 +120,10 @@ func handle_scene_change() -> void:
 			allowOverlay = true
 			Dialogic.start("res://timelines/MrC3.dtl")
 		
+		"MrC4_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/MrC4.dtl")
+		
 		"MrC5_timeline":
 			allowOverlay = true
 			Dialogic.start("res://timelines/MrC5.dtl")
@@ -163,3 +167,7 @@ func handle_scene_change() -> void:
 		"Alone1_timeline":
 			allowOverlay = true
 			Dialogic.start("res://timelines/Alone1.dtl")
+			
+		"Sky1_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/Sky1.dtl")

@@ -1,0 +1,24 @@
+leave mainCharacter
+update mrC (neutral) center
+You ask him about the fall. The sky. The path above? It didn't quite make sense to you.
+Not that any of this made sense in the first place.
+update mrC (huh)
+Mr. C. doesn't answer. He rubs the back of his head, and look off to the side.
+mrC: Well... Path above... It's just a theory of mine.
+mrC (neutral): Everyone who comes here are a bit the same."
+mrC (huh): They all have the same problem.
+mrC (sad): Telling you would really, really ruin it. I can only hope you don't put two-n'-two together, cap-i-tan. Else, you may not make it.
+mrC (neutral): I can only help you so much...
+mrC: Up there! Different. Brighter? Maybe. Noisy? I'd think so.
+mrC: One day... Everyone. Boom-! Down here they go. Down to me!
+mrC: Well- Not [shake]splat[/shake], but you get the idea.
+mrC: Perhaps you can't die here. But I wouldn't test it!
+mrC (singing1): On the Road again...~
+mrC (neutral): It's not so bad. I haven't had that much trouble... I believe in you!
+mrC: You're not alone here, cap-i-tan.
+mrC: I can only take you to the end of the Road, though.
+He shrugs.
+mrC (sad): Of course, I could be wrong about all of it! Maybe I'm just a character in your dream, eh?
+He titters nervously. 
+mrC (neutral): That means I'm not real... I'd like to think that I am!
+do GameManager.change_game_stage("Conflict1_timeline")

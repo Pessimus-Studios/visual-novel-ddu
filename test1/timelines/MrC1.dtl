@@ -1,15 +1,16 @@
 join mrC (exhausted) center
 mrCwhat: Phew...
-update mrC (glasses tip) center [wait="true"]
+update mrC (neutral) center [wait="true"]
 mrCwhat: Greetings, traveller! I watched ya arrive! You had quite the fall!
 mrC: My name is Mr. C. But you can call me... Mr. C!
-audio music "res://assets/music/bgmusic1.mp3" [loop="true"]
-mrC: I watched you fall from the sky. I thought... Some kinda bird, there! I looked closely and, it wan' no bird! It was a human!
-mrC: But seriously, how'd ya survive that? That must'a hurt!
-mrC: Ah, that's besides the point.
-mrC: You may be wondering where you are. To be honest, I wonder the same thing... I just call this place the Forest! You're quite a ways away from the Road, but no worries!
+audio music "res://assets/music/Fallen to C.mp3" [volume="-22.0" loop="true"]
+mrC (glasses): I watched you fall from the sky. I thought... Some kinda bird, there! I looked closely and, it wan' no bird! It was a human!
+mrC (neutral): But seriously, how'd ya survive that? That must'a hurt!
+mrC (neutral): Ah, that's besides the point.
+update mrC (neutral) center [wait="true"]
+mrC (pointing): You may be wondering where you are. To be honest, I wonder the same thing... I just call this place the Forest! You're quite a ways away from the Road, but no worries!
 [shake]...Huh?[/shake]
-mrC: I can take you there. Come, please! I'll tell you all about it.
+mrC (neutral): I can take you there. Come, please! I'll tell you all about it.
 [shake]...What is going on?[/shake]
 While every fiber of your being is against it, a small part of you tries to convince yourself to follow this strange man. His purple cloak clings idly on him, so unmoving that it's enough for you to notice the lack of wind.
 You hesitate for a moment, of course. However, as you glance around, and back toward the endless stretch of trees behind you... You see that you do not have much of a choice. An endless sea of lines, the shadows casted by the slender trees.

@@ -1,15 +1,17 @@
 [background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
-audio forestnoise "res://assets/music/thusfile.wav"
+audio forestnoise "res://assets/music/thusfile.wav" [volume="-7.0"]
 Asphalt. No signs. Trees on either side. No kidding, it was in fact a road.
-The smell was the same. The smell of leaves. there was no wind either. Everything was calm, eerily quiet. The only sounds that kept you sane were the erratic footsteps and skips of Mr. C.
+The smell was the same. The smell of leaves. there was no wind either. Everything was calm, eerily quiet. The only sounds that kept you sane were the erratic footsteps and skips of Mr. C, and the distant bird noises.
 join mrC left
 mrC: Welcome to The Road, friend!
 [shake]Friend?[/shake]
-mrC: The Road... On the Road again...~ I can't waittt....~ To... Get on the Road again...~
+mrC (singing1): The Road... On the Road again...~ I can't waittt....~ To... Get on the Road again...~
+update mrC (neutral)
 The man's footsteps sync with his singing, as he stumbles along the road. You follow alongside him and watch.
 His purple cloak, the medieval-styled clothing... Yet, you can see that he has a modern wrist watch. His glasses are modern too. He looked no older than you, if not a bit younger.
 Also... Mr. C? What did the "C" stand for?
-mrC: Yellow submarine, yellow submarine... In the town...! Where I was born...~
+mrC (singing1): Yellow submarine, yellow submarine... In the town...! Where I was born...~
+update mrC (neutral)
 He continued to hum and sing a few songs as you walked. He never finished them, and would stop in the middle of the song. He would then walk in silence for a moment, and then start another.
 Despite the medieval clothing style, he hums contemporary songs. He continues to do so.
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
@@ -22,13 +24,13 @@ update mrC center [move_time="0.5"]
 	You catch him in one of his moments of silence, and ask about where exactly you were. It still didn't make a whole lot of sense to you. What was "The Road"? "The Forest"? What is going on?
 	label Curious22
 	Mr. C. stops his humming, and turns to look at you. He continues his walk, and stretches his arms up with a groan.
-	mrC: Ahh, well...
-	mrC: It's complicated! Sorta. I think it's complicated. If anything, I should be the one asking you that. You are the leader after all, and you are the one who came.
+	mrC (huh): Ahh, well...
+	mrC (neutral): It's complicated! Sorta. I think it's complicated. If anything, I should be the one asking you that. You are the leader after all, and you are the one who came.
 	mrC: I am simply the guide! I am one with this place, in the sense that I am the one who guards it. I know as much as you do. All I know is that you must follow the Road. If what you seek is to get out of here in one peace, then the path is well paved for you here!
 	mrC: It's safe to say that you are here for the same reason as everyone else. There are other people, just like you! Some fall a bit further up the Road, some fall a bit further down...
 	mrC: At least people don't land on the Road! Not that I think you even can...
 	mrC: There is a path. Above this. Perhaps you have come from there, and you've strayed too far off of yours. This, cap-i-tan, is my best guess.
-	mrC: But it seems that everyone who comes down here comes from their sleep! I have yet to meet anyone who says they fall wide awake. I- Eheheh... I'm not so sure, really...
+	mrC (sad): But it seems that everyone who comes down here comes from their sleep! I have yet to meet anyone who says they fall wide awake. I- Eheheh... I'm not so sure, really...
 	He looks down, as if he is a little bit lost himself.
 	A wave of silence comes. Perhaps it was time to say something.
 	[clear time="0.5" portraits="false" music="false" background="false" positions="false" style="false"]
@@ -43,15 +45,15 @@ update mrC center [move_time="0.5"]
 	You bring up small talk.
 	You decide to ask where he got the cloak from.
 	update mrC center [move_time="0.5"]
-	mrC: Oh, this? This thing... Eheh. Well, let's just say I got it from someone very special...
+	mrC (neutral): Oh, this? This thing... Eheh. Well, let's just say I got it from someone very special...
 	mrC: ...Because I'm not quite sure! I've just always had this thing. Maybe I'm just born with it.
 	mrC: That's how it goes!
 	mrC: I've met people from all walks of life! Some fall a bit early down the Road... Some even fall around the End. I just happen to be there!
 	mrC: Right place, right time... But- I dunno. I feel like I've missed a few people. You never know!
-	mrC: I couldn't tell ya.
-	mrC: I'm sorry for being so vague about everything... I can't really say much! It's all a little confusing... If I tell ya anything, it may collapse...
-	mrC: THE FABRIC OF THE UNIVERSE!!!
-	mrC: Who knows?
+	mrC (huh): I couldn't tell ya.
+	mrC (neutral): I'm sorry for being so vague about everything... I can't really say much! It's all a little confusing... If I tell ya anything, it may collapse...
+	mrC (singing1): THE FABRIC OF THE UNIVERSE!!!
+	mrC (neutral): Who knows?
 	A chuckle escapes his lips. He shakes his head.
 	mrC: Things get a little fuzzy, the longer you're here... Y'know?
 	mrC: Perhaps you've felt that effect at some point...
@@ -71,8 +73,10 @@ update mrC center [move_time="0.5"]
 		leave mainCharacter
 	- Falling from the sky
 		leave mainCharacter
+		do GameManager.change_game_stage("Sky1_timeline")
 	- Loneliness
 		leave mainCharacter
+		do GameManager.change_game_stage("Alone1_timeline")
 - Join
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
