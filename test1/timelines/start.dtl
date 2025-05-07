@@ -18,7 +18,7 @@ You start to take a few steps back.
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 join mainCharacter center [animation="Instant In" length="0.0"]
 join youArrow center [animation="Bounce In"]
-[wait time="2.5" skippable="true"]
+[wait time="1.5" skippable="true"]
 leave youArrow [animation="Bounce Out"]
 - Wait
 	do GameManager.save_Game()

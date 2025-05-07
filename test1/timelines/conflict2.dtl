@@ -1,5 +1,5 @@
 [clear time="0.0"]
-audio music "res://assets/music/tv-static-323620.mp3" [fade="3.0" volume="-16.0"]
+audio music "res://assets/music/tv-static-323620.mp3" [fade="3.0" volume="-20.0"]
 [background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 mrC: Hey, are you alright?
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]

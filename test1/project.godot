@@ -52,8 +52,7 @@ directories/dtl_directory={
 "beginning": "res://timelines/beginning.dtl",
 "conflict1": "res://timelines/conflict1.dtl",
 "conflict2": "res://timelines/conflict2.dtl",
-"start": "res://timelines/start.dtl",
-"testline": "res://timelines/testline.dtl"
+"start": "res://timelines/start.dtl"
 }
 variables={
 "gameStage": "start"

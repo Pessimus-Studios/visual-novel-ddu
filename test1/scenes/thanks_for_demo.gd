@@ -1,7 +1,5 @@
 extends Control
 
-func _ready() -> void:
-	Dialogic.end_timeline()
 
 func _on_main_menu_button_down() -> void:
 	Engine.time_scale = 1

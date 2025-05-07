@@ -5,7 +5,7 @@ join mrC (sad) left [animation="Instant In" length="0.0"]
 join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Comfort
 	label Curious3
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	Having already walked for some time, you notice that you've been walking a little faster than him, and that he's started to lag behind.
 	You slow your pace down slightly to match his.
 	update mrC (neutral)
@@ -27,38 +27,44 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	mrC: ...I see that look in yer eyes... Ask, ask!
 	mrC: I'm willing to answer! Nobody's wanted to ask me a question before!
 	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-	join mainCharacter center
+	join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- Mr. C
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("MrC4_timeline")
 	- The Road
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("TheRoad2_timeline")
 	- Mr. C
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("MrC4_timeline")
 	- The Road
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("TheRoad2_timeline")
+join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Insist
 	label Cold2
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You double down, and continue to ask him about the Forest. Where exactly were you? You needed answers, and now.
 	mrC (neutral): I ehh... Already told you as much as I know about the Forest. Really. It's the outskirts of the Road. Not sure what else to say...
 	mrC (sad): ...
 	Mr. C. looks a little down.
 	He doesn't seem to want to talk to you, at the moment.
+	join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- Insult
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("Cold3_timeline")
 	- Ignore
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		You decide to ignore him.
 		The two of you would walk in silence for some time.
 		(Mr. C. will remember that.)
 		After some time, you speak up. He seems to be cheery again.
 		do GameManager.change_game_stage("MrC3_timeline")
 	- Insult
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("Cold3_timeline")
 	- Ignore
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		You decide to ignore him.
 		The two of you would walk in silence for some time.
 		(Mr. C. will remember that.)
@@ -66,7 +72,7 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 		do GameManager.change_game_stage("MrC3_timeline")
 - Start singing
 	label Joke21
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You don't like the silence. Not one bit. A once cheery guide of yours, now silent.
 	[shake]Lived a man, who sailed the sea...[/shake]
 	You continue one of his songs, one that he was singing earlier.
@@ -86,7 +92,7 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	It wouldn't hurt to ask something.
 	do GameManager.change_game_stage("Joke2.1_timeline")
 - About yourself
-	leave mainCharacter
+	leave mainCharacter [animation="Instant In" length="0.0"]
 	You glance down as you walk with him. The silence wasn't ideal.
 	Perhaps it was time to say something about yourself.
 	You tell him about what you remember just before meeting him.
@@ -100,16 +106,16 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	He shakes it off.
 	mrC: So, friend! Any uh... Any questions? Any at all! I wouldn't mind answering them.
 	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-	join mainCharacter (bruh) center
+	join mainCharacter (bruh) center [animation="Instant In" length="0.0"]
 	- Comfort
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		jump Curious3
 	- Pester
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		jump Cold2
 	- The Road
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("TheRoad2_timeline")
 	- Mr. C
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("MrC5_timeline")

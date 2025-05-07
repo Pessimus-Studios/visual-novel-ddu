@@ -17,7 +17,7 @@ offset_top = 1.0
 offset_right = 1182.0
 offset_bottom = 770.0
 stream = ExtResource("2_o6goh")
-volume_db = 6.0
+volume_db = -25.0
 autoplay = true
 expand = true
 

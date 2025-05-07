@@ -1,14 +1,14 @@
 [clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join mainCharacter center
+join mainCharacter center [animation="Instant In" length="0.0"]
 - Mr. C
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("MrC3_timeline")
 - The Road
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("TheRoad2_timeline")
 - Falling from the sky
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("Sky1_timeline")
 - Loneliness
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("Alone1_timeline")

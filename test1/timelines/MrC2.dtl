@@ -12,10 +12,10 @@ mrC (singing1): This place has been a home of mine for many many years! Eheheh..
 A gentle chuckle escapes your lips as you think about the names. "The Forest", "The Road".
 mrC (neutral): What's so funny, eh?
 [clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
-join mainCharacter (Normal) center [animation="Instant In"]
+join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Honest
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You tell him that his naming convention is very rudimentary.
 	mrC (neutral): Daah, that's the whole point of it! You forget things, now and again... Being here for too long can even make you forget your name.
 	(Mr. C will remember that.)
@@ -29,7 +29,7 @@ join mainCharacter (Normal) center [animation="Instant In"]
 	After some walking, you see it in the distance. Artificial terrain.
 - Curious
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You remind him that you still have no idea where you are, and are a little confused with it all.
 	mrC (neutral): Ahh, come on... It's not a problem! I'll show ya. The Road is where everyone goes, no matter what!
 	(Mr. C will remember that.)
@@ -43,7 +43,7 @@ join mainCharacter (Normal) center [animation="Instant In"]
 	After some walking, you see it in the distance. Artificial terrain.
 - Brutal
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You say that his naming convention is a bit stupid.
 	He looks at you skeptically, and doesn't say much.
 	(Mr. C will remember that.)
@@ -57,11 +57,11 @@ join mainCharacter (Normal) center [animation="Instant In"]
 	After some walking, you see it in the distance. Artificial terrain.
 - Joke
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	You say that, he must call his home "The House".
 	join mrC (huh) center
 	...
-	(Mr. C will remember that.)
+	[Mr. C will remember that.]
 	He gives you an awkward chuckle, rubbing the back of his head.
 	...
 	mrC (singing1): ...Hah! I get it now!

@@ -1,0 +1,1 @@
+do GameManager.change_game_stage("Thanks")

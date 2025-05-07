@@ -20,7 +20,7 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 update mrC center [move_time="0.5"]
 - What is "The Forest"?
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	update mrC left [move_time="0.5"]
 	label Forest
 	You catch him in one of his moments of silence, and ask about where exactly you were. It still didn't make a whole lot of sense to you. What was "The Road"? "The Forest"? What is going on?
@@ -39,12 +39,12 @@ update mrC center [move_time="0.5"]
 	do GameManager.change_game_stage("Curious3_timeline")
 - What is your name?
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	do GameManager.change_game_stage("MrC3_timeline")
 	[end_timeline]
 - Small Talk
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	update mrC left [move_time="0.5"]
 	You bring up small talk.
 	You decide to ask where he got the cloak from.
@@ -70,20 +70,20 @@ update mrC center [move_time="0.5"]
 	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
 	join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- Start singing
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		jump Forest1/Joke21
-		leave mainCharacter
 	- Forest
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		jump Curious22
-		leave mainCharacter
 	- Falling from the sky
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("Sky1_timeline")
 	- Loneliness
-		leave mainCharacter
+		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("Alone1_timeline")
 - Sing along
 	do GameManager.save_Game()
-	leave mainCharacter
+	leave mainCharacter [animation="Instant Out" length="0.0"]
 	update mrC left [move_time="0.5"]
 	You join in on his singing. You start to hum little bits of songs you know.
 	A chuckle escapes his lips. He shakes his head.

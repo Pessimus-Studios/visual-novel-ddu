@@ -1,4 +1,4 @@
-leave mainCharacter
+leave mainCharacter [animation="Instant Out" length="0.0"]
 update mrC (neutral) center
 You ask him about the fall. The sky. The path above? It didn't quite make sense to you.
 Not that any of this made sense in the first place.
