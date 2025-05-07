@@ -75,6 +75,11 @@ func disable_desaturation() -> void:
 # Function that changes the gameStage to the string it recieves and updates the game stage.
 # Call the function by: GameManager.change_game_stage("")
 func change_game_stage(new_stage: String) -> void:
+	if paused:
+		paused = !paused
+		Engine.time_scale = 1
+		restore_audio()
+	
 	gameStage = new_stage
 	handle_scene_change()
 
@@ -92,6 +97,7 @@ func handle_scene_change() -> void:
 	match GameManager.gameStage:
 		"start": 	# This is the starting phase.
 			allowOverlay = false
+			GameManager.pauseMenu.hide()
 			get_tree().change_scene_to_file("res://scenes/startGame.tscn")
 			
 		"intro_cutScene": # Naming convention is a little shoddy rn - L
@@ -118,8 +124,6 @@ func handle_scene_change() -> void:
 			allowOverlay = true
 			Dialogic.start("res://timelines/MrC5.dtl")
 		
-		
-			
 		"act1_cutScene": # Refer to cutScene2.tscn. Plays video, goes to theRoad1_timeline
 			allowOverlay = false
 			get_tree().change_scene_to_file("res://scenes/cutScene2.tscn")
