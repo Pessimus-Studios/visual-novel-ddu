@@ -30,6 +30,7 @@ join mainCharacter center
 	He doesn't seem to want to talk to you, at the moment.
 	do GameManager.change_game_stage("Cold3_timeline")
 - Start singing
+	label Joke21
 	leave mainCharacter
 	You don't like the silence. Not one bit. A once cheery guide of yours, now silent.
 	[shake]Lived a man, who sailed the sea...[/shake]

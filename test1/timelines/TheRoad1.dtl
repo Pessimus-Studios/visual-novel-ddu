@@ -18,7 +18,9 @@ update mrC center [move_time="0.5"]
 - Forest
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
+	label Forest
 	You catch him in one of his moments of silence, and ask about where exactly you were. It still didn't make a whole lot of sense to you. What was "The Road"? "The Forest"? What is going on?
+	label Curious22
 	Mr. C. stops his humming, and turns to look at you. He continues his walk, and stretches his arms up with a groan.
 	mrC: Ahh, well...
 	mrC: It's complicated! Sorta. I think it's complicated. If anything, I should be the one asking you that. You are the leader after all, and you are the one who came.
@@ -59,9 +61,30 @@ update mrC center [move_time="0.5"]
 	He starts to hum once more.
 	You and Mr. C continue to walk for some time.
 	Perhaps it was an idea to ask something else.
-	mrC: THE FABRIC OF THE UNIVERSE!!!
-	mrC: THE FABRIC OF THE UNIVERSE!!!
+	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+	join mainCharacter center
+	- Start singing
+		jump Forest1/Joke21
+		leave mainCharacter
+	- Forest
+		jump Curious22
+		leave mainCharacter
+	- Falling from the sky
+		leave mainCharacter
+	- Loneliness
+		leave mainCharacter
 - Join
 	leave mainCharacter
 	update mrC left [move_time="0.5"]
-	You join in on his singing.
+	You join in on his singing. You start to hum little bits of songs you know.
+	A chuckle escapes his lips. He shakes his head.
+	mrC: No, no no! That's not the idea... Dah- You'll get it soon!
+	...
+	...Right.
+	Some time passes.
+	[clear time="1.0" music="false" background="false" positions="false" style="false"]
+	[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
+	[wait time="1.0"]
+	[background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
+	join mrC center
+	jump Forest
