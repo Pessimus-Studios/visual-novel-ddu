@@ -24,17 +24,22 @@ join mainCharacter center
 	mrC: ...I see that look in yer eyes... Ask, ask!
 	mrC: I'm willing to answer! Nobody's wanted to ask me a question before!
 	[clear time="1.0" portraits="false" music="false" background="false" positions="false" style="false"]
+	join mainCharacter center
 	- Mr. C
+		leave mainCharacter
 		do GameManager.change_game_stage("MrC4_timeline")
 	- The Road
+		leave mainCharacter
 		do GameManager.change_game_stage("TheRoad2_timeline")
 	- Mr. C
+		leave mainCharacter
 		do GameManager.change_game_stage("MrC4_timeline")
 	- The Road
+		leave mainCharacter
 		do GameManager.change_game_stage("TheRoad2_timeline")
 - Insist
 	label Cold2
-	leave simon
+	leave mainCharacter
 	You double down, and continue to ask him about the Forest. Where exactly were you? You needed answers, and now.
 	mrC (neutral): I ehh... Already told you as much as I know about the Forest. Really. It's the outskirts of the Road. Not sure what else to say...
 	mrC (sad): ...
@@ -78,7 +83,7 @@ join mainCharacter center
 	It wouldn't hurt to ask something.
 	do GameManager.change_game_stage("Joke2.1_timeline")
 - About yourself
-	leave simon
+	leave mainCharacter
 	You glance down as you walk with him. The silence wasn't ideal.
 	Perhaps it was time to say something about yourself.
 	You tell him about what you remember just before meeting him.

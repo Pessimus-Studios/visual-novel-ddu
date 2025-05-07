@@ -171,3 +171,11 @@ func handle_scene_change() -> void:
 		"Sky1_timeline":
 			allowOverlay = true
 			Dialogic.start("res://timelines/Sky1.dtl")
+			
+		"LeaveC_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/LeaveC.dtl")
+			
+		"SaveC_timeline":
+			allowOverlay = true
+			Dialogic.start("res://timelines/SaveC.dtl")
