@@ -10,9 +10,11 @@ config_version=5
 
 [application]
 
-config/name="test1"
+config/name="fallenroot"
 run/main_scene="res://scenes/manager.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://assets/ui/icopng.png"
+config/windows_native_icon="res://assets/ui/icon.ico"
 
 [autoload]
 

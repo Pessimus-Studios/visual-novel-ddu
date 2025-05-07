@@ -23,6 +23,7 @@ The wind picks up. With one strong gust, Mr. C is blown away.
 You needed to act fast.
 mrC: Go! Run!
 [clear time="1.0"]
+[background arg="res://assets/backgrounds/black.jpg" fade="0.0"]
 join mainCharacter (sad1) center
 - Save Mr. C
 	leave --All--
