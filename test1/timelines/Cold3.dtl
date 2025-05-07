@@ -1,4 +1,4 @@
-leave --All--
+[clear time="1.0"]
 do GameManager.save_Game()
 [background arg="res://assets/backgrounds/theRoad.jpeg" fade="0.0"]
 audio music -
@@ -55,3 +55,4 @@ audio "res://assets/music/genickbruch-107521.mp3"
 You died
 do GameManager.disable_desaturation()
 do GameManager.change_game_stage("Thanks")
+[clear time="1.0"]

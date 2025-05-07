@@ -3,6 +3,7 @@ do GameManager.save_Game()
 leave mrC [animation="Instant Out" length="0.0"]
 join mrC (sad) left [animation="Instant In" length="0.0"]
 join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
+[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 - Comfort
 	label Curious3
 	leave mainCharacter [animation="Instant Out" length="0.0"]
@@ -40,7 +41,6 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- The Road
 		leave mainCharacter [animation="Instant Out" length="0.0"]
 		do GameManager.change_game_stage("TheRoad2_timeline")
-join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 - Insist
 	label Cold2
 	leave mainCharacter [animation="Instant Out" length="0.0"]
@@ -49,6 +49,7 @@ join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	mrC (sad): ...
 	Mr. C. looks a little down.
 	He doesn't seem to want to talk to you, at the moment.
+	[clear time="0.0" portraits="false" music="false" background="false" positions="false" style="false"]
 	join mainCharacter (Normal) center [animation="Instant In" length="0.0"]
 	- Insult
 		leave mainCharacter [animation="Instant Out" length="0.0"]

@@ -41,6 +41,7 @@ position = Vector2(507, 372)
 texture = ExtResource("2_yr32t")
 
 [node name="mainMenu" type="Button" parent="."]
+layout_mode = 0
 offset_left = 409.0
 offset_top = 601.0
 offset_right = 619.0
