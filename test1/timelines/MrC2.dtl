@@ -1,4 +1,5 @@
 do GameManager.save_Game()
+audio music -
 audio music "res://assets/music/Fallen to C.mp3" [volume="-22.0" loop="true"]
 [background arg="res://assets/backgrounds/DSC00675.png" fade="0.0"]
 [wait time="0.5"]

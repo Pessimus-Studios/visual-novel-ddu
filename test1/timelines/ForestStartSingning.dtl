@@ -4,6 +4,7 @@
 	do GameManager.change_game_stage("AskAboutRoad_scene")
 - Falling from the sky
 	You ask why people fall from the sky.
+	do GameManager.change_game_stage("Thanks")
 - Loneliness
 	You ask if he's lonely.
 	mrC: It... Can.
@@ -13,3 +14,4 @@
 	mrC: At least, from what I've gathered.
 	mrC: But hey, I'm glad to see a human once'n awhile! Nothin' but birds...
 	mrC: Havin' some company is always accepted!
+	do GameManager.change_game_stage("Thanks")

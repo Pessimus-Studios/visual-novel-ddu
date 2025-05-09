@@ -158,6 +158,7 @@ func handle_scene_change() -> void:
 			
 		"Conflict1_timeline":
 			allowOverlay = true
+			
 			Dialogic.start("res://timelines/conflict1.dtl")
 			
 		"Conflict2_timeline":

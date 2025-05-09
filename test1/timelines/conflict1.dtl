@@ -1,10 +1,7 @@
 do GameManager.save_Game()
-[background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
-[clear time="1.0" music="false" background="false" positions="false" style="false"]
+[clear time="0.0" music="false" background="false" positions="false" style="false"]
 [background arg="res://assets/backgrounds/theRoad2.png" fade="0.0"]
 audio forestnoise "res://assets/music/thusfile.wav"
-audio music -
-audio -
 join mrC center
 The two of you continue to walk for a long time.
 Your conversations together would be a bit of the same.

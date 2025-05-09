@@ -3,7 +3,6 @@ do GameManager.save_Game()
 [wait time="1.0"]
 ...
 What happened...?
-audio music "res://assets/music/tv-static-323620.mp3" [fade="5.0" volume="-20.0"]
 It's cold.
 It's very cold.
 It's quiet. Too quiet.
